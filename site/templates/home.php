@@ -9,7 +9,23 @@
 
     <hr>
 
-    <?php snippet('projects') ?>
+
+
+    <h2>New</h2>
+    <!-- To Do
+    #Pull latest posts large image
+    #large image overlay
+    #intro copy
+    -->
+
+
+    <h2>Work</h2>
+    <?php snippet('work') ?>
+
+    <h2>Conenct</h2>
+    <!-- To Do
+    Pull 3 column connect copy
+    -->
 
   </main>
 

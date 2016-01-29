@@ -1,17 +1,20 @@
-Title: Kirby Starterkit
+Title: Studio Scott
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: 
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Studio Scott is a multidisciplinary design firm specializing in identity, branding systems, print, packaging, and environmental graphics.
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Kirby,CMS,file-based
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: 
+
+© Studio Scott.
+All Rights Reserved.

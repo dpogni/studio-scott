@@ -13,7 +13,7 @@ fields:
     type:  text
   text:
     label: Text
-    type:  textarea
+    type:  wysiwyg
   tags:
     label: Tags
     type:  tags

@@ -1,8 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Projects
+title: Work
 pages:
-  template: project
+  template: work
 files: false
 fields:
   title:
@@ -10,4 +10,4 @@ fields:
     type:  text
   text:
     label: Text
-    type:  textarea
+    type:  wysiwyg

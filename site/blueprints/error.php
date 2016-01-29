@@ -9,5 +9,5 @@ fields:
     type:  text
   text:
     label: Text
-    type:  textarea
+    type:  wysiwyg
     size:  large
