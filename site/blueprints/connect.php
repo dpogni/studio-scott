@@ -1,13 +1,12 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Work
-pages:
-  template: project
+title: Connect
+pages: false
 files: false
 fields:
   title:
     label: Title
     type:  text
-  text:
-    label: Text
+  interns:
+    label: Interns
     type:  wysiwyg

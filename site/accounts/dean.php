@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - work/identity/project-a
-  - work/environmental-graphics
-  - work/digital-motion
-  - work/print
-  - work/branding
+  - new/test-post
+  - new/blog-post-3
+  - new/blog-post-2
+  - new/blog-post-1
+  - new

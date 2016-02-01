@@ -14,7 +14,4 @@ Keywords: Kirby,CMS,file-based
 
 ----
 
-Copyright: 
-
-© Studio Scott.
-All Rights Reserved.
+Copyright: © Studio Scott.

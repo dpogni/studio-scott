@@ -2,18 +2,16 @@ Title: Connect
 
 ----
 
-Text:
+Text: 
 
-## Get in touch
+## 
 
-- (link: http://getkirby.com/support text: Kirby's support page)
-- (link: http://forum.getkirby.com text: Kirby's forum)
-- (link: http://github.com/getkirby text: Kirby on Github)
-- <support@getkirby.com>
+## Address
 
-## Follow us on Twitter
+425 Bush Street #410  
+ (Between Grant and Kearny)  
+ San Francisco, CA 94108
 
-- Follow Kirby on Twitter (twitter: @getkirby)
-- Follow Bastian on Twitter (twitter: @bastianallgeier)
-- Follow Nico on Twitter (twitter: @distantnative)
-- Follow Sascha on Twitter (twitter: @sashtown)
+----
+
+Interns: This would be copy saying that we look for interns for the spring, fall, and summer sessions on a part time basis. We encourage creative people to apply who are looking to get broad design experience in a small design shop and who can bring something new to the team. This copy needs to be written but we’re basically saying we love to have intern help and are flexible in terms of schedule!

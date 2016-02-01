@@ -1,13 +1,10 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Work
+title: New
 pages:
-  template: project
+  template: post
 files: false
 fields:
   title:
     label: Title
     type:  text
-  text:
-    label: Text
-    type:  wysiwyg

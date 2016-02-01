@@ -1,4 +1,4 @@
-Title: Project A
+Title: blog-post-1
 
 ----
 
