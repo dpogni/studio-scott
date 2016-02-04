@@ -1,0 +1,3 @@
+[submodule "site/fields/wysiwyg"]
+	path = site/fields/wysiwyg
+	url = https://github.com/storypioneers/kirby-wysiwyg.git

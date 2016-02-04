@@ -1,8 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: News Post
-pages: False
-files: false
+pages: false
+files: true
 fields:
   title:
     label: Title
