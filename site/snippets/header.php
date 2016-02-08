@@ -13,11 +13,13 @@
 
 </head>
 <body>
+  <div class="container">
 
-  <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <!-- TODO: add SVG fallback -->
-      <img src="<?php echo url('assets/images/studio-scott.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
-    <?php snippet('menu') ?>
-  </header>
+
+    <header class="header cf" role="banner">
+      <a class="logo" href="<?php echo url() ?>">
+        <!-- TODO: add SVG fallback -->
+        <img src="<?php echo url('assets/images/studio-scott.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+      </a>
+      <?php snippet('menu') ?>
+    </header>

@@ -1,10 +1,10 @@
-  <footer class="footer cf" role="contentinfo">
+    <footer class="footer cf" role="contentinfo">
 
-    <div class="copyright">
-      ©<?php echo date("Y"); ?> Studio Scott
-    </div>
+      <div class="copyright">
+        ©<?php echo date("Y"); ?> Studio Scott
+      </div>
 
-  </footer>
-
+    </footer>
+  </div>
 </body>
 </html>

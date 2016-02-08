@@ -83,11 +83,15 @@ body {
   min-height: 100%;
   border-bottom: 12px solid #00ADEF; }
 
+.container {
+  max-width: 1168px;
+  margin: 0 auto; }
+
 /* Header
 -------------------------------------------------- */
 .header {
   margin-bottom: 1.5em;
-  max-width: 50em;
+  max-width: 73em;
   margin: 0 auto; }
 
 .logo {
@@ -166,6 +170,15 @@ body {
 
   .menu > li:hover .submenu {
     display: block; } }
+/* Columns
+-------------------------------------------------- */
+.col-3 {
+  float: left;
+  width: 33%;
+  padding-left: 3%; }
+  .col-3:first-of-type {
+    padding-left: 0; }
+
 /* Headings
 -------------------------------------------------- */
 h1, h2, h3, h4, h5 {
@@ -202,7 +215,6 @@ h1 a, h2 a, h3 a, h4 a {
 /* Main
 -------------------------------------------------- */
 .main {
-  max-width: 50em;
   margin: 0 auto;
   padding-bottom: 1.5em; }
 
@@ -251,21 +263,19 @@ h1 a, h2 a, h3 a, h4 a {
 
 /* Project teaser
 -------------------------------------------------- */
-.teaser {
-  list-style: none; }
+ul.teaser {
+  list-style: none;
+  margin-left: 0; }
+  ul.teaser li {
+    margin-bottom: 1.5em;
+    list-style: none;
+    width: 33%;
+    box-sizing: border-box;
+    float: left; }
+  ul.teaser a {
+    font-size: 1.5rem;
+    font-weight: normal; }
 
-.teaser li {
-  margin-bottom: 1.5em;
-  list-style: none; }
-
-@media screen and (min-width: 50em) {
-  .teaser li {
-    float: left;
-    width: 30%;
-    margin-left: 5%; }
-
-  .teaser li:first-child {
-    margin-left: 0; } }
 /* Next/Prev nav
 -------------------------------------------------- */
 .nextprev {
@@ -283,7 +293,7 @@ h1 a, h2 a, h3 a, h4 a {
 /* Footer
 -------------------------------------------------- */
 .footer {
-  max-width: 50em;
+  clear: both;
   margin: 0 auto;
   padding: 1em 0 6em;
   font-size: .8em; }
@@ -297,5 +307,26 @@ h1 a, h2 a, h3 a, h4 a {
 .colophon a b {
   color: red;
   padding-left: .25em; }
+
+.home figure {
+  position: relative; }
+.home figcaption {
+  position: absolute;
+  top: 41%;
+  width: 100%;
+  padding: 0 20% 0 5%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 1.2; }
+.home h2 {
+  font-size: 5em;
+  font-weight: bold; }
+
+.social-networks {
+  clear: both; }
+  .social-networks img {
+    display: inline; }
 
 /*# sourceMappingURL=main.css.map */
