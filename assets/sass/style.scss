@@ -1,11 +1,21 @@
+//// Global styles
+$baseWidth  :    1168;
+
+//// Break points
+$smallBreak :     40em;
+$midBreak   :     768px;
+
 //// Colors
-$white      :       #fff;
-$blue       :       #00ADEF;
-$grey       :       #6D6E71;
-$midGrey    :       #58595B;
+$white      :     #fff;
+$blue       :     #00ADEF;
+$lightGrey  :     #bcbec0;
+$grey       :     #6D6E71;
+$midGrey    :     #58595B;
 
 
 //// Imports of partials
-@import "base.scss";
-@import "home.scss";
-@import "_connect.scss";
+@import "base";
+@import "mixins";
+@import "home";
+@import "connect";
+@import "work";

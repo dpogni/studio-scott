@@ -8,8 +8,8 @@ fields:
   title:
     label: Title
     type:  text
-  year:
-    label: Year
+  subheadline:
+    label: Subheadline
     type:  text
   text:
     label: Text

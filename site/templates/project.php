@@ -1,13 +1,14 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="main project" role="main">
+
+  <?php snippet('work-nav') ?>
 
     <h1><?php echo $page->title()->html() ?></h1>
 
-    <ul class="meta cf">
-      <li><b>Year:</b> <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('Y', 'year') ?></time></li>
-      <li><b>Tags:</b> <?php echo $page->tags() ?></li>
-    </ul>
+    <?php if( $page->subheadline()): ?>
+      <h2><?php echo $page->subheadline() ?></h2>
+    <?php endif ?>
 
     <div class="text">
       <?php echo $page->text()->kirbytext() ?>

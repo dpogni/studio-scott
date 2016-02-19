@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+
+
   <main class="main" role="main">
 
     <div class="text">
@@ -7,10 +9,22 @@
       <?php echo $page->text()->kirbytext() ?>
     </div>
 
-    <hr>
+  <ul class="teaser cf">
+    <?php foreach($page->children()->visible() as $project): ?>
+      <li>
+        <a href="<?php echo $project->url() ?>"><?php echo $project->image()->html() ?></a>
+        <a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a>
+        <p class="tags">
+          <a href="">
+          <?php foreach($project->tags()->split(' , ') as $tag): ?>
+            <?php echo $tag ?>
+          <?php endforeach ?>
+          </a>
+        </p>
 
-    <?php snippet('work') ?>
-
+        <?php endforeach ?>
+  </ul>
+  
   </main>
 
 <?php snippet('footer') ?>

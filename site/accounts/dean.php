@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - work/project-c
+  - work/california-academy-of-sciences
   - new/blog-post-4
-  - new/blog-post-3
   - new/blog-post-2
   - new/blog-post-1
-  - new

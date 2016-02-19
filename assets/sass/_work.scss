@@ -1,0 +1,36 @@
+.work-nav{
+  list-style: none;
+  @include clearfix;
+  a:link, a:visited{
+    color: $lightGrey;
+  }
+  a:hover{
+    color: $midGrey;
+  }
+  li{
+    float: left;
+    margin-right: 10px;
+    font-weight: bold;
+    &:after{
+      content: "/";
+      margin-left: 10px;
+    }
+    &:last-of-type{
+      margin-right: 0;
+      &:after{
+        display: none;
+      }
+    }
+  }
+}
+
+.project{
+  h1{
+    font-size: 44px;
+    font-weight: bold;
+  }
+  h2{
+    font-size: 44px;
+    font-weight: light;
+  }
+}
