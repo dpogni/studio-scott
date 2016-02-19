@@ -24,7 +24,8 @@
 
         <?php endforeach ?>
   </ul>
-  
+    
+
   </main>
 
 <?php snippet('footer') ?>
