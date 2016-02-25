@@ -12,7 +12,7 @@ fields:
     tyle: text
   read-more:
     label: Read More
-    type:  wysiwyg
+    type:  textarea
   text:
     label: Text
-    type:  wysiwyg
+    type:  textarea

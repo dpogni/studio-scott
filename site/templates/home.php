@@ -30,7 +30,7 @@
       </figure>
 
 
-      <h2>Conenct</h2>
+      <h2>Connect</h2>
       <?php snippet('connect') ?>
 
       <div class="social-networks">

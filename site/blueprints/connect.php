@@ -9,4 +9,4 @@ fields:
     type:  text
   interns:
     label: Interns
-    type:  wysiwyg
+    type:  textarea

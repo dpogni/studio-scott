@@ -28,28 +28,3 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
-
-
-/*
-
----------------------------------------
-WYSIWYG Additional Configuration
----------------------------------------
-
-https://github.com/storypioneers/kirby-wysiwyg
-
-*/
-
-
-c::set('field.wysiwyg.buttons', array(
-          'h1',
-          'h2',
-          'h3',
-          'bold',
-          'italic',
-          'quote',
-          'unorderedlist',
-          'orderedlist',
-          'anchor',
-          )
-);

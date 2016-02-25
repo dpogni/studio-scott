@@ -10,10 +10,10 @@ fields:
     type:  text
   subheadline:
     label: Subheadline
-    type:  text
+    type: text
   text:
     label: Text
-    type:  wysiwyg
+    type: textarea
   tags:
     label: Tags
-    type:  tags
+    type: tags
