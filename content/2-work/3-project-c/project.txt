@@ -10,8 +10,12 @@ Tags: Installation,print
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Text: 
+
+When institutions recount their history, they typically highlight landmark dates and standard-setting achievements. “60+ Moments in the History of Stanford Law School,” an exhibit in Stanford Law School's Classroom Building, takes a less conventional approach, sharing the story of Stanford Law through a sampling of fact, anecdote, and recollection—famous, exploring Stanford Law’s origins, turning points, impact, innovations, history-makers, heroes, lore, and legend.
+
+Awards: Third place, 7th Annual International Design Awards (2014 Print Competition). Photos: ©Tim Griffith
 
 ----
 
-Subheadline: 
+Subheadline: 60+ Moments in the History of Stanford Law School

@@ -6,12 +6,12 @@ Year: 2013
 
 ----
 
-Tags: Branding
+Tags: Branding,identity,environmen
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Text: Equator is a coffee roaster, tea purveyor, retail operator, and coffee farm co-owner offering distinctive micro-lot coffees and rare teas to fine restaurants, hotels, and retailers. Obsessive attention to green coffee sourcing, uncompromising roasting expertise, and a 21-year commitment to sustainability create a remarkable experience in every cup.
 
 ----
 
-Subheadline: 
+Subheadline: Creating a remarkable experience in every cup
