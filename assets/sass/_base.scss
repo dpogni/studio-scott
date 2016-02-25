@@ -8,35 +8,6 @@ Email:  support@getkirby.com
 
 */
 
-
-/* Source Sans Pro
--------------------------------------------------- */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/sourcesanspro-300.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/sourcesanspro-600.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400-italic.woff) format('woff');
-}
-
-
 /* Reset
 -------------------------------------------------- */
 *, *:before, *:after {
@@ -86,11 +57,11 @@ a:hover {
 -------------------------------------------------- */
 html {
   height: 100%;
-  font-family: "Source Sans Pro", sans-serif;
+  @include Swiss-Light;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
-  body {
+body {
   font-size: 1.25rem;
   line-height: 1.5em;
   padding: 0 0 1em 0;
@@ -220,12 +191,14 @@ h1, h2, h3, h4, h5{
   color: $midGrey;
 }
 h1 {
+  @include Swiss-Heavy;
   font-size: 6.25rem;
   line-height: 1.25em;
   font-weight: normal;
   margin-bottom: .5rem;
 }
 h2 {
+  @include Swiss-Heavy;
   font-size: 2.8125rem;
   line-height: 1.25em;
   font-weight: normal;
@@ -238,6 +211,7 @@ h3 {
   margin-bottom: .5em;
 }
 h4 {
+  @include Swiss-Heavy;
   font-size: 1.125em;
   font-weight: 600;
   line-height: 1.5em;
@@ -306,6 +280,7 @@ h1 a, h2 a, h3 a, h4 a {
 /* Project teaser
 -------------------------------------------------- */
 ul.teaser {
+  @include Swiss-Roman;
   list-style: none;
   margin-left: 0;
   li {

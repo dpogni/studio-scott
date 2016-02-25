@@ -1,5 +1,6 @@
 .work-nav{
   list-style: none;
+  @include Swiss-Medium;
   @include clearfix;
   a:link, a:visited{
     color: $lightGrey;
@@ -31,6 +32,6 @@
   }
   h2{
     font-size: 44px;
-    font-weight: light;
+    @include Swiss-Light;
   }
 }

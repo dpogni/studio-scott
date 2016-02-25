@@ -14,8 +14,9 @@ $midGrey    :     #58595B;
 
 
 //// Imports of partials
-@import "base";
 @import "mixins";
+@import "fonts";
+@import "base";
 @import "home";
 @import "connect";
 @import "work";
