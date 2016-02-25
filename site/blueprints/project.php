@@ -17,3 +17,6 @@ fields:
   tags:
     label: Tags
     type: tags
+  tagSubheadline:
+    label: Tag Subheadline
+    type: text

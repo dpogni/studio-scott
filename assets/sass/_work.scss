@@ -2,8 +2,9 @@
   list-style: none;
   @include Swiss-Medium;
   @include clearfix;
+  color: $lighterGrey;
   a:link, a:visited{
-    color: $lightGrey;
+    color: inherit;
   }
   a:hover{
     color: $midGrey;
@@ -22,16 +23,5 @@
         display: none;
       }
     }
-  }
-}
-
-.project{
-  h1{
-    font-size: 44px;
-    font-weight: bold;
-  }
-  h2{
-    font-size: 44px;
-    @include Swiss-Light;
   }
 }

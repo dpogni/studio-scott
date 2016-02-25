@@ -12,10 +12,15 @@
   <ul class="teaser cf">
     <?php foreach($page->children()->visible() as $project): ?>
       <li>
-        <a href="<?php echo $project->url() ?>"><?php echo $project->image()->html() ?></a>
-        <a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a>
-
-        <?php endforeach ?>
+        <a href="<?php echo $project->url() ?>">
+          <?php echo $project->image()->html() ?>
+          <?php echo $project->title() ?>
+          <?php if ($project->tagSubheadline()): ?>
+            <span><?php echo $project->tagSubheadline() ?></span>
+          <?php endif ?>
+        </a>
+      </li>
+    <?php endforeach ?>
   </ul>
 
 

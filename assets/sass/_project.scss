@@ -1,0 +1,10 @@
+.project{
+  h1{
+    font-size: 44px;
+    @include Swiss-Heavy;
+  }
+  h2{
+    font-size: 44px;
+    @include Swiss-Light;
+  }
+}

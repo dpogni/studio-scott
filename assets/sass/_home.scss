@@ -10,11 +10,10 @@
     margin: 0 auto;
     color: #fff;
     font-size: 52px;
-    font-weight: bold;
+    @include Swiss-Heavy;
     line-height: 1.2;
   }
   h2{
     font-size: 5em;
-    font-weight: bold;
   }
 }

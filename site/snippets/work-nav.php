@@ -1,4 +1,4 @@
-<h1>work</h1>
+<header class="page-title">Work</header>
 
 <ul class="work-nav">
   <li>

@@ -194,26 +194,22 @@ h1 {
   @include Swiss-Heavy;
   font-size: 6.25rem;
   line-height: 1.25em;
-  font-weight: normal;
   margin-bottom: .5rem;
 }
 h2 {
   @include Swiss-Heavy;
   font-size: 2.8125rem;
   line-height: 1.25em;
-  font-weight: normal;
   margin-bottom: .5rem;
 }
 h3 {
   font-size: 1.4em;
   line-height: 1.5em;
-  font-weight: 400;
   margin-bottom: .5em;
 }
 h4 {
   @include Swiss-Heavy;
   font-size: 1.125em;
-  font-weight: 600;
   line-height: 1.5em;
   margin-bottom: .5em;
 }
@@ -221,7 +217,11 @@ h1 a, h2 a, h3 a, h4 a {
   color: inherit;
   border: 0 !important;
 }
-
+.page-title{
+  @include Swiss-Heavy;
+  font-size: 100px;
+  line-height: 100px;
+}
 
 
 /* Main
@@ -293,11 +293,17 @@ ul.teaser {
     &:nth-of-type(3n){
       margin-right: 0;
     }
+    img{
+      margin-bottom: 20px;
+    }
   }
-  a{
+  a:link, a:visited{
     color: $midGrey;
-    font-size: 1.5rem;
+    font-size: 21px;
     font-weight: normal;
+    span{
+      color: $lightGrey;
+    }
   }
 }
 

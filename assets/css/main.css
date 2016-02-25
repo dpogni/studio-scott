@@ -32,20 +32,20 @@
 @import url("//hello.myfonts.net/count/305a12");
 @font-face {
   font-family: 'Swiss721BT-Light';
-  src: url("/assets/fonts/305A12_0_0.eot");
-  src: url("/assets/fonts/305A12_0_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/305A12_0_0.woff2") format("woff2"), url("/assets/fonts/305A12_0_0.woff") format("woff"), url("/assets/fonts/305A12_0_0.ttf") format("truetype"); }
+  src: url(/assets/fonts/305A12_0_0.eot);
+  src: url(/assets/fonts/305A12_0_0.eot?#iefix) format("embedded-opentype"), url("/assets/fonts/305A12_0_0.woff2") format("woff2"), url("/assets/fonts/305A12_0_0.woff") format("woff"), url("/assets/fonts/305A12_0_0.ttf") format("truetype"); }
 @font-face {
   font-family: 'Swiss721BT-Roman';
-  src: url("/assets/fonts/305A12_1_0.eot");
-  src: url("/assets/fonts/305A12_1_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/305A12_1_0.woff2") format("woff2"), url("/assets/fonts/305A12_1_0.woff") format("woff"), url("/assets/fonts/305A12_1_0.ttf") format("truetype"); }
+  src: url(/assets/fonts/305A12_1_0.eot);
+  src: url(/assets/fonts/305A12_1_0.eot?#iefix) format("embedded-opentype"), url("/assets/fonts/305A12_1_0.woff2") format("woff2"), url("/assets/fonts/305A12_1_0.woff") format("woff"), url("/assets/fonts/305A12_1_0.ttf") format("truetype"); }
 @font-face {
   font-family: 'Swiss721BT-Heavy';
-  src: url("/assets/fonts/305A12_2_0.eot");
-  src: url("/assets/fonts/305A12_2_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/305A12_2_0.woff2") format("woff2"), url("/assets/fonts/305A12_2_0.woff") format("woff"), url("/assets/fonts/305A12_2_0.ttf") format("truetype"); }
+  src: url(/assets/fonts/305A12_2_0.eot);
+  src: url(/assets/fonts/305A12_2_0.eot?#iefix) format("embedded-opentype"), url("/assets/fonts/305A12_2_0.woff2") format("woff2"), url("/assets/fonts/305A12_2_0.woff") format("woff"), url("/assets/fonts/305A12_2_0.ttf") format("truetype"); }
 @font-face {
   font-family: 'Swiss721BT-Medium';
-  src: url("/assets/fonts/305A12_3_0.eot");
-  src: url("/assets/fonts/305A12_3_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/305A12_3_0.woff2") format("woff2"), url("/assets/fonts/305A12_3_0.woff") format("woff"), url("/assets/fonts/305A12_3_0.ttf") format("truetype"); }
+  src: url(/assets/fonts/305A12_3_0.eot);
+  src: url(/assets/fonts/305A12_3_0.eot?#iefix) format("embedded-opentype"), url("/assets/fonts/305A12_3_0.woff2") format("woff2"), url("/assets/fonts/305A12_3_0.woff") format("woff"), url("/assets/fonts/305A12_3_0.ttf") format("truetype"); }
 /*
 
 Kirby Starterkit
@@ -217,7 +217,6 @@ h1 {
   font-style: normal;
   font-size: 6.25rem;
   line-height: 1.25em;
-  font-weight: normal;
   margin-bottom: .5rem; }
 
 h2 {
@@ -226,13 +225,11 @@ h2 {
   font-style: normal;
   font-size: 2.8125rem;
   line-height: 1.25em;
-  font-weight: normal;
   margin-bottom: .5rem; }
 
 h3 {
   font-size: 1.4em;
   line-height: 1.5em;
-  font-weight: 400;
   margin-bottom: .5em; }
 
 h4 {
@@ -240,13 +237,19 @@ h4 {
   font-weight: normal;
   font-style: normal;
   font-size: 1.125em;
-  font-weight: 600;
   line-height: 1.5em;
   margin-bottom: .5em; }
 
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
   border: 0 !important; }
+
+.page-title {
+  font-family: Swiss721BT-Heavy;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 100px; }
 
 /* Main
 -------------------------------------------------- */
@@ -316,10 +319,14 @@ ul.teaser {
     float: left; }
     ul.teaser li:nth-of-type(3n) {
       margin-right: 0; }
-  ul.teaser a {
+    ul.teaser li img {
+      margin-bottom: 20px; }
+  ul.teaser a:link, ul.teaser a:visited {
     color: #58595B;
-    font-size: 1.5rem;
+    font-size: 21px;
     font-weight: normal; }
+    ul.teaser a:link span, ul.teaser a:visited span {
+      color: #939598; }
 
 /* Next/Prev nav
 -------------------------------------------------- */
@@ -364,11 +371,12 @@ ul.teaser {
   margin: 0 auto;
   color: #fff;
   font-size: 52px;
-  font-weight: bold;
+  font-family: Swiss721BT-Heavy;
+  font-weight: normal;
+  font-style: normal;
   line-height: 1.2; }
 .home h2 {
-  font-size: 5em;
-  font-weight: bold; }
+  font-size: 5em; }
 
 .social-networks {
   clear: both; }
@@ -379,13 +387,14 @@ ul.teaser {
   list-style: none;
   font-family: Swiss721BT-Medium;
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  color: #bcbec0; }
   .work-nav:after {
     content: "";
     display: table;
     clear: both; }
   .work-nav a:link, .work-nav a:visited {
-    color: #bcbec0; }
+    color: inherit; }
   .work-nav a:hover {
     color: #58595B; }
   .work-nav li {
@@ -402,7 +411,9 @@ ul.teaser {
 
 .project h1 {
   font-size: 44px;
-  font-weight: bold; }
+  font-family: Swiss721BT-Heavy;
+  font-weight: normal;
+  font-style: normal; }
 .project h2 {
   font-size: 44px;
   font-family: Swiss721BT-Light;
