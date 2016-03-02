@@ -40,7 +40,7 @@ a {
   transition: color .3s, background .3s, border .3s;
 }
 a:hover {
-  color: $midGrey;
+  color: $grey;
 }
 
 
@@ -63,10 +63,10 @@ html {
 }
 body {
   font-size: 1.25rem;
-  line-height: 1.5em;
+  line-height: 1.33;
   padding: 0 0 1em 0;
   background: $blue;
-  color: $midGrey;
+  color: $grey;
   min-height: 100%;
 }
 .container{
@@ -188,11 +188,12 @@ body {
 /* Headings
 -------------------------------------------------- */
 h1, h2, h3, h4, h5{
-  color: $midGrey;
+  color: $grey;
 }
 h1 {
   @include Swiss-Heavy;
-  font-size: 6.25rem;
+  font-size: 80px;
+  letter-spacing: -3px;
   line-height: 1.25em;
   margin-bottom: .5rem;
 }
@@ -219,8 +220,9 @@ h1 a, h2 a, h3 a, h4 a {
 }
 .page-title{
   @include Swiss-Heavy;
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 80px;
+  letter-spacing: -3px;
+  line-height: 1.333;
 }
 
 
@@ -283,6 +285,8 @@ ul.teaser {
   @include Swiss-Roman;
   list-style: none;
   margin-left: 0;
+  font-size: 18px;
+  font-weight: normal;
   li {
     margin-bottom: 1.5em;
     list-style: none;
@@ -298,11 +302,11 @@ ul.teaser {
     }
   }
   a:link, a:visited{
-    color: $midGrey;
-    font-size: 21px;
-    font-weight: normal;
+    color: $grey;
     span{
+      @include Swiss-Light;
       color: $lightGrey;
+      display: block;
     }
   }
 }

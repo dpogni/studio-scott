@@ -1,10 +1,15 @@
 .project{
   h1{
-    font-size: 44px;
+    font-size: 34px;
     @include Swiss-Heavy;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    margin-bottom: 0;
   }
   h2{
-    font-size: 44px;
+    font-size: 34px;
+    letter-spacing: -1px;
     @include Swiss-Light;
+    line-height: 1.1;
   }
 }

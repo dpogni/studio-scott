@@ -28,8 +28,6 @@
   <?php endforeach ?>
 </ul> -->
 
-<hr>
-
 <ul class="teaser cf">
   <li>
 

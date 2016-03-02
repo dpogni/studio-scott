@@ -83,7 +83,7 @@ a {
   transition: color .3s, background .3s, border .3s; }
 
 a:hover {
-  color: #58595B; }
+  color: #828282; }
 
 /* Clearfix
 -------------------------------------------------- */
@@ -104,10 +104,10 @@ html {
 
 body {
   font-size: 1.25rem;
-  line-height: 1.5em;
+  line-height: 1.33;
   padding: 0 0 1em 0;
   background: #00ADEF;
-  color: #58595B;
+  color: #828282;
   min-height: 100%; }
 
 .container {
@@ -209,13 +209,14 @@ body {
 /* Headings
 -------------------------------------------------- */
 h1, h2, h3, h4, h5 {
-  color: #58595B; }
+  color: #828282; }
 
 h1 {
   font-family: Swiss721BT-Heavy;
   font-weight: normal;
   font-style: normal;
-  font-size: 6.25rem;
+  font-size: 80px;
+  letter-spacing: -3px;
   line-height: 1.25em;
   margin-bottom: .5rem; }
 
@@ -248,8 +249,9 @@ h1 a, h2 a, h3 a, h4 a {
   font-family: Swiss721BT-Heavy;
   font-weight: normal;
   font-style: normal;
-  font-size: 100px;
-  line-height: 100px; }
+  font-size: 80px;
+  letter-spacing: -3px;
+  line-height: 1.333; }
 
 /* Main
 -------------------------------------------------- */
@@ -309,7 +311,9 @@ ul.teaser {
   font-weight: normal;
   font-style: normal;
   list-style: none;
-  margin-left: 0; }
+  margin-left: 0;
+  font-size: 18px;
+  font-weight: normal; }
   ul.teaser li {
     margin-bottom: 1.5em;
     list-style: none;
@@ -322,11 +326,13 @@ ul.teaser {
     ul.teaser li img {
       margin-bottom: 20px; }
   ul.teaser a:link, ul.teaser a:visited {
-    color: #58595B;
-    font-size: 21px;
-    font-weight: normal; }
+    color: #828282; }
     ul.teaser a:link span, ul.teaser a:visited span {
-      color: #939598; }
+      font-family: Swiss721BT-Light;
+      font-weight: normal;
+      font-style: normal;
+      color: #939598;
+      display: block; }
 
 /* Next/Prev nav
 -------------------------------------------------- */
@@ -376,7 +382,8 @@ ul.teaser {
   font-style: normal;
   line-height: 1.2; }
 .home h2 {
-  font-size: 5em; }
+  font-size: 80px;
+  letter-spacing: -3px; }
 
 .social-networks {
   clear: both; }
@@ -396,7 +403,7 @@ ul.teaser {
   .work-nav a:link, .work-nav a:visited {
     color: inherit; }
   .work-nav a:hover {
-    color: #58595B; }
+    color: #828282; }
   .work-nav li {
     float: left;
     margin-right: 10px;
@@ -410,14 +417,19 @@ ul.teaser {
         display: none; }
 
 .project h1 {
-  font-size: 44px;
+  font-size: 34px;
   font-family: Swiss721BT-Heavy;
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  margin-bottom: 0; }
 .project h2 {
-  font-size: 44px;
+  font-size: 34px;
+  letter-spacing: -1px;
   font-family: Swiss721BT-Light;
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  line-height: 1.1; }
 
 /*# sourceMappingURL=main.css.map */
