@@ -13,7 +13,7 @@
     <?php foreach($page->children()->visible() as $project): ?>
       <li>
         <a href="<?php echo $project->url() ?>">
-          <?php echo $project->image()->html() ?>
+          <?php echo thumb($project->image(), array('width' => 768)); ?>
           <?php echo $project->title() ?>
           <?php if ($project->tagSubheadline()): ?>
             <span><?php echo $project->tagSubheadline() ?></span>

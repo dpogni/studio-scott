@@ -278,40 +278,6 @@ h1 a, h2 a, h3 a, h4 a {
   padding-right: .25em;
 }
 
-
-/* Project teaser
--------------------------------------------------- */
-ul.teaser {
-  @include Swiss-Roman;
-  list-style: none;
-  margin-left: 0;
-  font-size: 18px;
-  font-weight: normal;
-  li {
-    margin-bottom: 1.5em;
-    list-style: none;
-    width: percentage(369.33333333333333/$baseWidth);
-    margin-right: percentage(30/$baseWidth);
-    box-sizing: border-box;
-    float: left;
-    &:nth-of-type(3n){
-      margin-right: 0;
-    }
-    img{
-      margin-bottom: 20px;
-    }
-  }
-  a:link, a:visited{
-    color: $grey;
-    span{
-      @include Swiss-Light;
-      color: $lightGrey;
-      display: block;
-    }
-  }
-}
-
-
 /* Next/Prev nav
 -------------------------------------------------- */
 .nextprev {
