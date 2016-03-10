@@ -14,9 +14,16 @@ fields:
   text:
     label: Text
     type: textarea
+  readMoreText
+    label: Read More Text
+    type: textarea
   tags:
     label: Tags
     type: tags
+    lower: true
   tagSubheadline:
     label: Tag Subheadline
     type: text
+  designedWith:
+    label: Designed With (Small text)
+    type: textarea

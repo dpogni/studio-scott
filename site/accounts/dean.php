@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - work
-  - work/california-academy-of-sciences
+  - new
+  - work/the-mix-at-sfpl
+  - work/finca-sophia
+  - work/equator-coffees-teas
   - work/project-c
-  - new/blog-post-4
-  - new/blog-post-2

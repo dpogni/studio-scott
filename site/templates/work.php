@@ -1,16 +1,28 @@
+<?php
+  // fetch the basic set of articles
+  $projects = $page->children()->visible();
+
+  // add the tag filter
+  if($tag = param('tag')) {
+    $projects = $projects->filterBy('tags', $tag, ',');
+  }
+
+  // apply pagination
+  $projects = $projects->paginate(10);
+?>
+
 <?php snippet('header') ?>
-
-
 
   <main class="main" role="main">
 
+  <?php snippet('work-nav') ?>
+
     <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
       <?php echo $page->text()->kirbytext() ?>
     </div>
 
   <ul class="teaser cf">
-    <?php foreach($page->children()->visible() as $project): ?>
+    <?php foreach($projects as $project): ?>
       <li>
         <a href="<?php echo $project->url() ?>">
           <?php echo thumb($project->image(), array('width' => 768)); ?>

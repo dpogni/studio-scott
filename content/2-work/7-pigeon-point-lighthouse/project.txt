@@ -14,4 +14,4 @@ The symbol was inspired by the down shot of the first-order Fresnel lens, compri
 
 ----
 
-Tags: identity,print,environmental graphics
+Tags: identity,print,environmental-graphics

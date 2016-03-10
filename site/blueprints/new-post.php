@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: News Post
+title: New Post
 pages: false
 files: true
 fields:

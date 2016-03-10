@@ -379,6 +379,7 @@ h1 a, h2 a, h3 a, h4 a {
     display: inline; }
 
 .work-nav {
+  margin-bottom: 1.5em;
   list-style: none;
   font-family: Swiss721BT-Medium;
   font-weight: normal;
@@ -456,5 +457,8 @@ ul.teaser {
       display: block; }
   ul.teaser a:hover {
     color: #00ADEF; }
+
+.new article {
+  clear: both; }
 
 /*# sourceMappingURL=main.css.map */

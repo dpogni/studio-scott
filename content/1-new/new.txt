@@ -2,8 +2,8 @@ Title: New
 
 ----
 
-Text: 
+Text: Design matters because it is a part of everything. But it doesn’t happen in a vaccuum. It takes conviction on the part of the client and listening on the part of the designer. It is a *partnership* where—at the end of a journey—there is something to celebrate.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+----
 
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+Introduction: someting
