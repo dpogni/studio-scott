@@ -2,7 +2,7 @@ Title: Studio Scott
 
 ----
 
-Author: 
+Author: Laura Scott
 
 ----
 
@@ -10,7 +10,7 @@ Description: Studio Scott is a multidisciplinary design firm specializing in ide
 
 ----
 
-Keywords: Kirby,CMS,file-based
+Keywords: 
 
 ----
 

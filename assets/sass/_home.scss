@@ -17,7 +17,7 @@
     font-size: 80px;
     letter-spacing: -3px;
   }
-  @media screen and (max-width: $breakMid) {
+  @media screen and (max-width: $break-mid) {
     ul.teaser{
       li{
         margin-bottom: 0;
@@ -28,7 +28,7 @@
       }
       a:link, a:visited{
         @include Swiss-Heavy;
-        color: $lighterGrey;
+        color: $lighter-grey;
         font-size: 30px;
         display: block;
         padding: 6px 0;

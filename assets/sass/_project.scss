@@ -25,11 +25,11 @@ ul.teaser {
   li {
     margin-bottom: 1.5em;
     list-style: none;
-    width: percentage(369.33333333333333/$baseWidth);
-    margin-right: percentage(30/$baseWidth);
+    width: percentage(369.33333333333333/$base-width);
+    margin-right: percentage(30/$base-width);
     box-sizing: border-box;
     float: left;
-    @media screen and (max-width: $breakMid) {
+    @media screen and (max-width: $break-mid) {
       float: none;
       width: 100%;
       margin-right: 0;
@@ -45,7 +45,7 @@ ul.teaser {
     color: $grey;
     span{
       @include Swiss-Light;
-      color: $lightGrey;
+      color: $light-grey;
       display: block;
     }
   }

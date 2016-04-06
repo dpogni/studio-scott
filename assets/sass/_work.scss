@@ -3,7 +3,7 @@
   list-style: none;
   @include Swiss-Medium;
   @include clearfix;
-  color: $lighterGrey;
+  color: $lighter-grey;
   a:link, a:visited{
     color: inherit;
   }

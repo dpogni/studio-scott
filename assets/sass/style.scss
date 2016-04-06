@@ -1,17 +1,20 @@
 //// Global styles
-$baseWidth  :    1168;
+$base-width      :     1168;
 
 //// Break points
-$breakSmall :     40em;
-$breakMid   :     768px;
+$break-small     :     40em;
+$break-mid       :     768px;
 
 //// Colors
-$white      :     #fff;
-$lighterGrey:     #bcbec0;
-$lightGrey  :     #939598;
-$grey       :     #828282;
-$blue       :     #00ADEF;
+$white           :     #fff;
+$lighter-grey    :     #bcbec0;
+$light-grey      :     #939598;
+$grey            :     #828282;
+$blue            :     #00ADEF;
 
+//// Font Sizes
+$font-size--small :    1.25rem;
+$font-size--large :    1.625rem;
 
 //// Imports of partials
 @import "mixins";
@@ -21,4 +24,5 @@ $blue       :     #00ADEF;
 @import "connect";
 @import "work";
 @import "project";
+@import "studio";
 @import "new";

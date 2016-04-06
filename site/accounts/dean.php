@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - studio
+  - new/blog-post-4
   - new
   - work/the-mix-at-sfpl
   - work/finca-sophia
-  - work/equator-coffees-teas
-  - work/project-c

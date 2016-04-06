@@ -51,7 +51,7 @@
 }
 @mixin Swiss-Light {
   font-family: Swiss721BT-Light;
-  font-weight: normal;
+  font-weight: light;
   font-style: normal;
 }
 @mixin Swiss-Roman {
@@ -66,6 +66,6 @@
 }
 @mixin Swiss-Heavy {
   font-family: Swiss721BT-Heavy;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }

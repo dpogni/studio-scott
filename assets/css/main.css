@@ -97,7 +97,7 @@ a:hover {
 html {
   height: 100%;
   font-family: Swiss721BT-Light;
-  font-weight: normal;
+  font-weight: light;
   font-style: normal;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-family: Swiss721BT-Heavy;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-size: 80px;
   letter-spacing: -3px;
@@ -222,11 +222,11 @@ h1 {
 
 h2 {
   font-family: Swiss721BT-Heavy;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-size: 2.8125rem;
   line-height: 1.25em;
-  margin-bottom: .5rem; }
+  margin-bottom: 1rem; }
 
 h3 {
   font-size: 1.4em;
@@ -235,7 +235,7 @@ h3 {
 
 h4 {
   font-family: Swiss721BT-Heavy;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-size: 1.125em;
   line-height: 1.5em;
@@ -247,7 +247,7 @@ h1 a, h2 a, h3 a, h4 a {
 
 .page-title {
   font-family: Swiss721BT-Heavy;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-size: 80px;
   letter-spacing: -3px;
@@ -348,7 +348,7 @@ h1 a, h2 a, h3 a, h4 a {
   color: #fff;
   font-size: 52px;
   font-family: Swiss721BT-Heavy;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   line-height: 1.2; }
 .home h2 {
@@ -362,7 +362,7 @@ h1 a, h2 a, h3 a, h4 a {
       border-bottom: 0; }
   .home ul.teaser a:link, .home ul.teaser a:visited {
     font-family: Swiss721BT-Heavy;
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
     color: #bcbec0;
     font-size: 30px;
@@ -408,7 +408,7 @@ h1 a, h2 a, h3 a, h4 a {
 .project h1 {
   font-size: 34px;
   font-family: Swiss721BT-Heavy;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   letter-spacing: -1px;
   line-height: 1.1;
@@ -417,7 +417,7 @@ h1 a, h2 a, h3 a, h4 a {
   font-size: 34px;
   letter-spacing: -1px;
   font-family: Swiss721BT-Light;
-  font-weight: normal;
+  font-weight: light;
   font-style: normal;
   line-height: 1.1; }
 
@@ -451,12 +451,30 @@ ul.teaser {
     color: #828282; }
     ul.teaser a:link span, ul.teaser a:visited span {
       font-family: Swiss721BT-Light;
-      font-weight: normal;
+      font-weight: light;
       font-style: normal;
       color: #939598;
       display: block; }
   ul.teaser a:hover {
     color: #00ADEF; }
+
+.studio__process {
+  font-size: 1.625rem; }
+
+.studio__clients {
+  font-size: 1.625rem; }
+
+.studio__clients--left {
+  width: 50%;
+  float: left; }
+
+.studio__clients--right {
+  width: 50%;
+  float: left; }
+
+.studio__founder--img {
+  float: left;
+  padding: 0 15px 15px 0; }
 
 .new article {
   clear: both; }
