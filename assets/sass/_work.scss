@@ -4,6 +4,9 @@
   @include Swiss-Medium;
   @include clearfix;
   color: $lighter-grey;
+  @media screen and (max-width: $break-mid) {
+    font-size: 16px;
+  }
   a:link, a:visited{
     color: inherit;
   }
@@ -13,10 +16,10 @@
   li{
     float: left;
     margin-right: 10px;
-    font-weight: bold;
+    padding-bottom: 2px;
     &:after{
       content: "/";
-      margin-left: 10px;
+      margin-left: .25em;
     }
     &:last-of-type{
       margin-right: 0;

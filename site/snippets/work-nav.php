@@ -4,10 +4,6 @@
 <header class="page-title">Work</header>
 <?php endif ?>
 
-
-
-
-
 <ul class="work-nav">
   <li>
     <a href="/work">All</a>
@@ -32,20 +28,3 @@
   </li>
 </ul>
 
-
-<!-- <?php
-
-// fetch all tags
-$tags = $pages->find('work')->children()->visible()->pluck('tags', ',', true);
-
-?>
-<ul class="tags">
-  <li><a href="/work">All</a></li>
-  <?php foreach($tags as $tag): ?>
-  <li>
-    <a href="<?php echo url('/work/tag:' . $tag)?>">
-      <?php echo html($tag) ?>
-    </a>
-  </li>
-  <?php endforeach ?>
-</ul> -->

@@ -31,6 +31,9 @@ img {
   max-width: 100%;
 }
 
+iframe{
+  margin-bottom: 2.5rem;
+}
 
 /* Links
 -------------------------------------------------- */
@@ -74,7 +77,9 @@ body {
   margin: 0 auto;
   padding: 3em;
   background: $white;
-
+  @media screen and (max-width: $break-mid) {
+      padding: 1.5em;
+  }
 }
 
 /* Header
@@ -92,6 +97,9 @@ body {
 }
 .logo img {
   width: 175px;
+  @media screen and (max-width: $break-mid) {
+    width: 130px;
+  }
 }
 
 
@@ -180,6 +188,11 @@ body {
   float:left;
   width: 33%;
   padding-left: 3%;
+  @media screen and (max-width: $break-mid) {
+    float: none;
+    padding-left: 0;
+    width: 100%;
+  }
   &:first-of-type{
     padding-left: 0;
   }
@@ -196,6 +209,10 @@ h1 {
   letter-spacing: -3px;
   line-height: 1.25em;
   margin-bottom: .5rem;
+  @media screen and (max-width: $break-mid) {
+    font-size: 50px;
+    letter-spacing: -2px;
+  }
 }
 h2 {
   @include Swiss-Heavy;
@@ -223,6 +240,10 @@ h1 a, h2 a, h3 a, h4 a {
   font-size: 80px;
   letter-spacing: -3px;
   line-height: 1.333;
+  @media screen and (max-width: $break-mid) {
+    font-size: 50px;
+    letter-spacing: -2px;
+  }
 }
 
 
@@ -241,7 +262,7 @@ h1 a, h2 a, h3 a, h4 a {
 .main p,
 .main ul,
 .main ol{
-  font-weight: 100;
+
 }
 .main p,
 .main figure,
@@ -249,7 +270,6 @@ h1 a, h2 a, h3 a, h4 a {
 .main ol {
   margin-bottom: 1.5em;
 }
-.main a { font-weight: bold;}
 .main a:hover {
   border-color: #222;
   color: $blue;
@@ -300,7 +320,7 @@ h1 a, h2 a, h3 a, h4 a {
   max-width: 1168px;
   clear: both;
   margin: 0 auto;
-  padding: 1em 0 6em;
+  padding: 1em 0 0;
   font-size: .8em;
 }
 .copyright {

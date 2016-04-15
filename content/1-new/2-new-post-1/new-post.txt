@@ -1,9 +1,0 @@
-Title: New Post 1
-
-----
-
-Text: New Post copy
-
-----
-
-Worklink: 

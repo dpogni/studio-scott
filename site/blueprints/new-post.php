@@ -14,5 +14,3 @@ fields:
     label: Link to Work page
     help: This manually adds a link to the work page. Leave blank if there's no work page.
     type: page
-
-

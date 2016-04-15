@@ -75,6 +75,9 @@ img {
   display: block;
   max-width: 100%; }
 
+iframe {
+  margin-bottom: 2.5rem; }
+
 /* Links
 -------------------------------------------------- */
 a {
@@ -97,7 +100,7 @@ a:hover {
 html {
   height: 100%;
   font-family: Swiss721BT-Light;
-  font-weight: light;
+  font-weight: normal;
   font-style: normal;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
@@ -115,6 +118,9 @@ body {
   margin: 0 auto;
   padding: 3em;
   background: #fff; }
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 1.5em; } }
 
 /* Header
 -------------------------------------------------- */
@@ -131,6 +137,9 @@ body {
 
 .logo img {
   width: 175px; }
+  @media screen and (max-width: 768px) {
+    .logo img {
+      width: 130px; } }
 
 /* Navigation
 -------------------------------------------------- */
@@ -203,6 +212,11 @@ body {
   float: left;
   width: 33%;
   padding-left: 3%; }
+  @media screen and (max-width: 768px) {
+    .col-3 {
+      float: none;
+      padding-left: 0;
+      width: 100%; } }
   .col-3:first-of-type {
     padding-left: 0; }
 
@@ -213,16 +227,20 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-family: Swiss721BT-Heavy;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-size: 80px;
   letter-spacing: -3px;
   line-height: 1.25em;
   margin-bottom: .5rem; }
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 50px;
+      letter-spacing: -2px; } }
 
 h2 {
   font-family: Swiss721BT-Heavy;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-size: 2.8125rem;
   line-height: 1.25em;
@@ -235,7 +253,7 @@ h3 {
 
 h4 {
   font-family: Swiss721BT-Heavy;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-size: 1.125em;
   line-height: 1.5em;
@@ -247,11 +265,15 @@ h1 a, h2 a, h3 a, h4 a {
 
 .page-title {
   font-family: Swiss721BT-Heavy;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-size: 80px;
   letter-spacing: -3px;
   line-height: 1.333; }
+  @media screen and (max-width: 768px) {
+    .page-title {
+      font-size: 50px;
+      letter-spacing: -2px; } }
 
 /* Main
 -------------------------------------------------- */
@@ -266,18 +288,10 @@ h1 a, h2 a, h3 a, h4 a {
   background: #ddd; }
 
 .main p,
-.main ul,
-.main ol {
-  font-weight: 100; }
-
-.main p,
 .main figure,
 .main ul,
 .main ol {
   margin-bottom: 1.5em; }
-
-.main a {
-  font-weight: bold; }
 
 .main a:hover {
   border-color: #222;
@@ -324,7 +338,7 @@ h1 a, h2 a, h3 a, h4 a {
   max-width: 1168px;
   clear: both;
   margin: 0 auto;
-  padding: 1em 0 6em;
+  padding: 1em 0 0;
   font-size: .8em; }
 
 .copyright {
@@ -337,6 +351,8 @@ h1 a, h2 a, h3 a, h4 a {
   color: red;
   padding-left: .25em; }
 
+.home .homepage--new {
+  font-size: 1.625rem; }
 .home figure {
   position: relative; }
 .home figcaption {
@@ -348,12 +364,30 @@ h1 a, h2 a, h3 a, h4 a {
   color: #fff;
   font-size: 52px;
   font-family: Swiss721BT-Heavy;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   line-height: 1.2; }
+  @media screen and (max-width: 768px) {
+    .home figcaption {
+      position: static;
+      width: 100%;
+      padding: 0;
+      color: inherit;
+      font-size: inherit;
+      margin-top: 1.5rem;
+      margin-bottom: 2.5rem;
+      font-size: .625em;
+      font-family: Swiss721BT-Heavy;
+      font-weight: normal;
+      font-style: normal;
+      color: #bcbec0; } }
 .home h2 {
   font-size: 80px;
   letter-spacing: -3px; }
+  @media screen and (max-width: 768px) {
+    .home h2 {
+      font-size: 50px;
+      letter-spacing: -2px; } }
 @media screen and (max-width: 768px) {
   .home ul.teaser li {
     margin-bottom: 0;
@@ -362,18 +396,21 @@ h1 a, h2 a, h3 a, h4 a {
       border-bottom: 0; }
   .home ul.teaser a:link, .home ul.teaser a:visited {
     font-family: Swiss721BT-Heavy;
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     color: #bcbec0;
-    font-size: 30px;
+    font-size: 24px;
     display: block;
-    padding: 6px 0; }
+    padding: 8px 0;
+    line-height: 24px; }
   .home ul.teaser a:hover {
     color: #00ADEF; }
   .home ul.teaser img {
     display: none; } }
 
 .social-networks {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   clear: both; }
   .social-networks img {
     display: inline; }
@@ -389,6 +426,9 @@ h1 a, h2 a, h3 a, h4 a {
     content: "";
     display: table;
     clear: both; }
+  @media screen and (max-width: 768px) {
+    .work-nav {
+      font-size: 16px; } }
   .work-nav a:link, .work-nav a:visited {
     color: inherit; }
   .work-nav a:hover {
@@ -396,10 +436,10 @@ h1 a, h2 a, h3 a, h4 a {
   .work-nav li {
     float: left;
     margin-right: 10px;
-    font-weight: bold; }
+    padding-bottom: 2px; }
     .work-nav li:after {
       content: "/";
-      margin-left: 10px; }
+      margin-left: .25em; }
     .work-nav li:last-of-type {
       margin-right: 0; }
       .work-nav li:last-of-type:after {
@@ -408,7 +448,7 @@ h1 a, h2 a, h3 a, h4 a {
 .project h1 {
   font-size: 34px;
   font-family: Swiss721BT-Heavy;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   letter-spacing: -1px;
   line-height: 1.1;
@@ -417,7 +457,7 @@ h1 a, h2 a, h3 a, h4 a {
   font-size: 34px;
   letter-spacing: -1px;
   font-family: Swiss721BT-Light;
-  font-weight: light;
+  font-weight: normal;
   font-style: normal;
   line-height: 1.1; }
 .project figure img {
@@ -453,7 +493,7 @@ ul.teaser {
     color: #828282; }
     ul.teaser a:link span, ul.teaser a:visited span {
       font-family: Swiss721BT-Light;
-      font-weight: light;
+      font-weight: normal;
       font-style: normal;
       color: #939598;
       display: block; }
@@ -468,7 +508,13 @@ ul.teaser {
 
 .studio__clients--left {
   width: 50%;
-  float: left; }
+  float: left;
+  padding-right: 10px; }
+  .studio__clients--left p {
+    margin-bottom: 0; }
+  @media screen and (max-width: 768px) {
+    .studio__clients--left {
+      width: 100%; } }
 
 .studio__clients--right {
   width: 50%;
@@ -480,5 +526,9 @@ ul.teaser {
 
 .new article {
   clear: both; }
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

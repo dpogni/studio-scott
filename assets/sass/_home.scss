@@ -1,4 +1,7 @@
 .home{
+  .homepage--new{
+    font-size: 1.625rem;
+  }
   figure{
     position: relative;
   }
@@ -12,10 +15,26 @@
     font-size: 52px;
     @include Swiss-Heavy;
     line-height: 1.2;
+    @media screen and (max-width: $break-mid) {
+      position: static;
+      width: 100%;
+      padding: 0;
+      color: inherit;
+      font-size: inherit;
+      margin-top: 1.5rem;
+      margin-bottom: 2.5rem;
+      font-size: .625em;
+      @include Swiss-Heavy;
+      color: $lighter-grey;
+    }
   }
   h2{
     font-size: 80px;
     letter-spacing: -3px;
+    @media screen and (max-width: $break-mid) {
+      font-size: 50px;
+      letter-spacing: -2px;
+    }
   }
   @media screen and (max-width: $break-mid) {
     ul.teaser{
@@ -29,9 +48,10 @@
       a:link, a:visited{
         @include Swiss-Heavy;
         color: $lighter-grey;
-        font-size: 30px;
+        font-size: 24px;
         display: block;
-        padding: 6px 0;
+        padding: 8px 0;
+        line-height: 24px;
       }
       a:hover{
         color: $blue;

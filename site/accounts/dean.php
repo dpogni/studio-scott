@@ -7,8 +7,5 @@ password: >
 language: en
 role: admin
 history:
-  - work/stanford-law-schoolll
+  - studio
   - work
-  - new/new-post-3
-  - new/new-post-1
-  - new/new-post-2
