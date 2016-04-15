@@ -7,12 +7,12 @@ fields:
   title:
     label: Title
     type:  text
-  blurb:
-    label: Blurb
-    tyle: text
-  read-more:
-    label: Read More
-    type:  textarea
   text:
     label: Text
     type:  textarea
+  workLink:
+    label: Link to Work page
+    help: This manually adds a link to the work page. Leave blank if there's no work page.
+    type: page
+
+

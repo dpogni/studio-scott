@@ -14,7 +14,7 @@ fields:
   text:
     label: Text
     type: textarea
-  readMoreText
+  readMoreText:
     label: Read More Text
     type: textarea
   tags:
@@ -24,6 +24,6 @@ fields:
   tagSubheadline:
     label: Tag Subheadline
     type: text
-  designedWith:
-    label: Designed With (Small text)
+  projectCredits:
+    label: Project Credits
     type: textarea

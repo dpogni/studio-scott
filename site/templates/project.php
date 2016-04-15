@@ -11,14 +11,43 @@
     <?php endif ?>
 
     <div class="text">
+
+      <?php if ( $page->images() ): ?>
+      <figure>
+        <img src="<?php echo $page->images()->first()->url() ?>" alt="<?php echo $page->title()->html() ?>">
+      </figure>
+      <?php endif; ?>
+
       <?php echo $page->text()->kirbytext() ?>
 
-      <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
+      <?php
+        $images = $page->images()->sortBy('sort', 'asc');
+        $imagesFirst = $images->first();
+        foreach( $images as $image ):
+          if ( $image == $imagesFirst ) {
+            continue;
+          }else{
+      ?>
       <figure>
         <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
       </figure>
-      <?php endforeach ?>
+
+      <?php } endforeach ?>
+
+
     </div>
+
+
+
+
+    <?php if ( !$page->projectCredits()->empty() ): ?>
+    <div class="project-credits">
+      <?php echo $page->projectCredits()->kirbytext() ?>
+    </div>
+    <?php endif; ?>
+
+
+
 
     <nav class="nextprev cf" role="navigation">
       <?php if($prev = $page->prevVisible()): ?>
