@@ -3,7 +3,7 @@
   <main class="main home" role="main">
 
     <div class="text">
-      <div class="homepage--new">  
+      <div class="homepage--new">
         <h2>New</h2>
         <figure>
           <img src="http://placehold.it/1168x730">
@@ -25,16 +25,10 @@
         <a href=""><img src="http://placehold.it/1168x550"></a>
       </figure>
 
-
       <h2>Connect</h2>
       <?php snippet('connect') ?>
 
-      <div class="social-networks">
-
-        <a href="http://twitter.com/studioscottsf"><img src="<?php echo url('assets/images/social-twitter.png') ?>" alt="Studio Scott Twitter" /></a>
-        <a href="https://www.facebook.com/StudioScottSF"><img src="<?php echo url('assets/images/social-fb.png') ?>" alt="Studio Scott Facebook" /></a>
-
-      </div>
+      <?php snippet('social-networks') ?>
 
     </div>
 

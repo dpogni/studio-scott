@@ -7,5 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - work/equator-coffees-teas
+  - work/willamette-university
+  - work/stanford-law-school
+  - work/california-academy-of-sciences
   - studio
-  - work

@@ -5,9 +5,14 @@ pages: false
 files:
   sortable: true
 fields:
+  thumbnail:
+      label: Thumbnail
+      type: info
+      text: >
+        To select a thumbnail, rename one of the images 'thumbnail.jpg'. If no image has that filename, the first image will be used.
   title:
     label: Title
-    type:  text
+    type: text
   subheadline:
     label: Subheadline
     type: text
@@ -17,6 +22,9 @@ fields:
   readMoreText:
     label: Read More Text
     type: textarea
+  projectCredits:
+    label: Project Credits
+    type: textarea
   tags:
     label: Tags
     type: tags
@@ -24,6 +32,3 @@ fields:
   tagSubheadline:
     label: Tag Subheadline
     type: text
-  projectCredits:
-    label: Project Credits
-    type: textarea

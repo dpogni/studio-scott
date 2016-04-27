@@ -22,8 +22,16 @@ Subheadline: 60+ Moments in the History of Stanford Law School
 
 ----
 
-Tagsubheadline: 
+Tagsubheadline: Installation & Print
 
 ----
 
 Designedwith: 
+
+----
+
+Readmoretext: 
+
+----
+
+Projectcredits: 
