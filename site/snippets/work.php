@@ -2,37 +2,37 @@
 
 <ul class="teaser cf">
   <li>
-    <a href="http://localhost:8000/work/identity">
+    <a href="/work/tag:identity">
       <img src="http://placehold.it/370x270">
       Identity
     </a>
   </li>
   <li>
-    <a href="http://localhost:8000/work/packaging">
+    <a href="/work/tag:packaging">
       <img src="http://placehold.it/370x270">
       Packaging
     </a>
   </li>
   <li>
-    <a href="http://localhost:8000/work/branding">
+    <a href="/work/tag:branding">
       <img src="http://placehold.it/370x270">
       Branding
     </a>
   </li>
   <li>
-    <a href="http://localhost:8000/work/print">
+    <a href="/work/tag:print">
       <img src="http://placehold.it/370x270">
       Print
     </a>
   </li>
   <li>
-    <a href="http://localhost:8000/work/digital-motion">
+    <a href="/work/tag:digital">
       <img src="http://placehold.it/370x270">
       Digital / Motion
     </a>
   </li>
   <li>
-    <a href="http://localhost:8000/work/environmental-graphics">
+    <a href="/work/tag:environmental-graphics">
       <img src="http://placehold.it/370x270">
       Environmental Graphics
   </li>

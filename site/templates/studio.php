@@ -39,7 +39,7 @@
 
       <h2>Clients</h2>
 
-      <?php echo $page->founder()->kirbytext() ?>
+      <?php echo $page->clients()->kirbytext() ?>
 
     </div>
 
