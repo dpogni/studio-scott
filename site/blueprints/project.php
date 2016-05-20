@@ -5,17 +5,15 @@ pages: false
 files:
   sortable: true
 fields:
-  thumbnail:
-      label: Thumbnail
-      type: info
-      text: >
-        To select a thumbnail, rename one of the images 'thumbnail.jpg'. If no image has that filename, the first image will be used.
   title:
     label: Title
     type: text
   subheadline:
     label: Subheadline
     type: text
+  thumbnailImage:
+    label: Thumbnail Image
+    type: image
   text:
     label: Text
     type: textarea

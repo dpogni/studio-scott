@@ -6,7 +6,7 @@
   if($tag = param('tag')) {
     $projects = $projects->filterBy('tags', $tag, ',');
   }
-  
+
 ?>
 
 <?php snippet('header') ?>
@@ -25,12 +25,8 @@
         <a href="<?php echo $project->url() ?>">
 
           <?php
-          if ( $project->image('thumbnail.jpg') ) {
-            echo thumb($project->image('thumbnail.jpg'), array('width' => 768));
-          } else {
-            $images = $project->images()->sortBy('sort', 'asc');
-            echo '<img src=' . $images->first()->url() . '>';
-          }
+
+          echo '<img src=' . $project->contentURL() . '/' . $project->thumbnailImage() . '>';
 
           echo $project->title();
 
