@@ -11,9 +11,7 @@
             An unconventional look at the history of Stanford Law School.
           </figcaption>
         </figure>
-        <p>
-          Design matters because it is a part of everything. But it doesn’t <a href="">happen in a vaccuum</a>. It takes conviction on the part of the client and listening on the part of the designer. It is a partnership where—at the end of a journey—there is something to celebrate.
-        </p>
+        <?php echo kirbytext($page->text()) ?>
       </div>
 
       <!-- Work Section -->
