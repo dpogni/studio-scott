@@ -10,11 +10,7 @@ Tags: installation,print
 
 ----
 
-Text: 
-
-When institutions recount their history, they typically highlight landmark dates and standard-setting achievements. “60+ Moments in the History of Stanford Law School,” an exhibit in Stanford Law School's Classroom Building, takes a less conventional approach, sharing the story of Stanford Law through a sampling of fact, anecdote, and recollection—famous, exploring Stanford Law’s origins, turning points, impact, innovations, history-makers, heroes, lore, and legend.
-
-Awards: Third place, 7th Annual International Design Awards (2014 Print Competition). Photos: ©Tim Griffith
+Text: When institutions recount their history, they typically highlight landmark dates and standard-setting achievements. “60+ Moments in the History of Stanford Law School,” an exhibit in Stanford Law School's Classroom Building, takes a less conventional approach, sharing the story of Stanford Law through a sampling of fact, anecdote, and recollection—famous, exploring Stanford Law’s origins, turning points, impact, innovations, history-makers, heroes, lore, and legend.
 
 ----
 
@@ -22,7 +18,7 @@ Subheadline: 60+ Moments in the History of Stanford Law School
 
 ----
 
-Tagsubheadline: Installation & Print
+Tagsubheadline: Installation
 
 ----
 
@@ -35,3 +31,6 @@ Readmoretext:
 ----
 
 Projectcredits: 
+
+Photos: ©Tim Griffith
+Awards: Third place, 7th Annual International Design Awards (2014 Print Competition)
