@@ -50,6 +50,9 @@ ul.teaser {
     &:nth-of-type(3n) {
       margin-right: 0;
     }
+    &:nth-of-type(3n+1) {
+      clear: left;
+    }
     img {
       padding-bottom: 20px;
     }
@@ -70,11 +73,18 @@ ul.teaser {
   ul.teaser li {
     float: left;
     width: percentage(569/$base-width);
+
     &:nth-of-type(3n) {
       margin-right: percentage(30/$base-width);
     }
+
+    &:nth-of-type(3n+1) {
+      clear: none;
+    }
+
     &:nth-of-type(2n) {
       margin-right: 0;
     }
+
   }
 }

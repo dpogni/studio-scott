@@ -464,6 +464,8 @@ ul.teaser {
     float: left; }
     ul.teaser li:nth-of-type(3n) {
       margin-right: 0; }
+    ul.teaser li:nth-of-type(3n+1) {
+      clear: left; }
     ul.teaser li img {
       padding-bottom: 20px; }
   ul.teaser a:link, ul.teaser a:visited {
@@ -483,6 +485,8 @@ ul.teaser {
     width: 48.71575%; }
     ul.teaser li:nth-of-type(3n) {
       margin-right: 2.56849%; }
+    ul.teaser li:nth-of-type(3n+1) {
+      clear: none; }
     ul.teaser li:nth-of-type(2n) {
       margin-right: 0; } }
 .project h1 {
