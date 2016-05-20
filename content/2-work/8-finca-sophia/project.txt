@@ -27,3 +27,7 @@ Tagsubheadline: Identity / Packaging
 ----
 
 Projectcredits: 
+
+----
+
+Thumbnailimage: finca_01.jpg

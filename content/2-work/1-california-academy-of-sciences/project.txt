@@ -31,3 +31,7 @@ Projectcredits:
 Photos: © Tim Griffith
 Donor Walls: Implementation in collaboration with Kate Keating Associates
 Awards: Gold Spark Award Winner
+
+----
+
+Thumbnailimage: cas_01.jpg

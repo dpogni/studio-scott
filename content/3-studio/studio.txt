@@ -2,17 +2,15 @@ Title: Studio
 
 ----
 
-Text:
-
-We are fortunate to work with clients of all sizes and specialties, from startups and small family businesses to Fortune 500 companies to educational and cultural institutions, incuding We are fortunate to work with clients of all sizes and specialties, from startups and small family businesses to Fortune 500 companies to educational and cultural institutions, incuding:
+Text: We are fortunate to work with clients of all sizes and specialties, from startups and small family businesses to Fortune 500 companies to educational and cultural institutions, incuding We are fortunate to work with clients of all sizes and specialties, from startups and small family businesses to Fortune 500 companies to educational and cultural institutions, incuding:
 
 ----
 
-Process: We are fortunate to work with clients of all sizes and specialties, from startups and small family businesses to Fortune 500 companies to educational and cultural institutions, incuding We are fortunate to work with clients of all sizes and specialties, from startups and small family businesses to Fortune 500 companies to educational and cultural institutions, incuding:
+Process: We take our inspiration from you:  your vision, your goals, your story. With sensitivity to your organization’s message and your audiences, we can develop a distinctive visual identity that speaks your truth—and bring it to life across a wide range of media and tools, from print to digital to environmental.
 
 ----
 
-Founder:
+Founder: 
 
 Laura Scott founded Studio Scott in 2009 to bring award-winning design and communications experience to a wide range of design disciplines: identity, branding systems, print, packaging, and environmental graphics. The studio works with clients of all sizes and specialties—from startups, non-profits, and small family businesses to Fortune 500 companies and educational and cultural institutions.
 
@@ -22,11 +20,11 @@ Before becoming a graphic designer, Laura served as communications director and 
 
 ----
 
-Clients: We are fortunate to work with clients of all sizes and specialties, from startups and small family businesses to Fortune 500 companies to educational and cultural institutions, incuding We are fortunate to work with clients of all sizes and specialties, from startups and small family businesses to Fortune 500 companies to educational and cultural institutions, incuding:
+Clients: We are fortunate to work with clients of all sizes and specialties, from startups and small family businesses to Fortune 500 companies, educational enterprises, and cultural institutions. Each has a unique story — one we translate visually through distinctive design.
 
 ----
 
-Clientslistleft:
+Clientslistleft: 
 
 Stanford University
 California Academy of Sciences
@@ -43,7 +41,7 @@ California State Parks Foundation
 
 ----
 
-Clientslistright:
+Clientslistright: 
 
 Dev Bootcamp
 True Story Foods

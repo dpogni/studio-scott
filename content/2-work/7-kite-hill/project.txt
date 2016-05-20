@@ -27,3 +27,7 @@ Tagsubheadline: Packaging
 ----
 
 Projectcredits: Photos: Marshall Gordon
+
+----
+
+Thumbnailimage: kitehill_01.jpg

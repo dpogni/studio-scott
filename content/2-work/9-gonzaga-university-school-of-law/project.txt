@@ -27,3 +27,7 @@ Tags: print
 ----
 
 Tagsubheadline: 
+
+----
+
+Thumbnailimage: gonzaga_01.jpg

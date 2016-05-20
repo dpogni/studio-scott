@@ -26,3 +26,7 @@ Merit Winner, Graphis Design Annual 2016
 ----
 
 Tagsubheadline: 
+
+----
+
+Thumbnailimage: themix_01.jpg

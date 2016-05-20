@@ -27,3 +27,7 @@ Tagsubheadline: Identity
 ----
 
 Projectcredits: 
+
+----
+
+Thumbnailimage: equator_01b.jpg

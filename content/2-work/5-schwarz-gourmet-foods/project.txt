@@ -23,3 +23,7 @@ Projectcredits:
 ----
 
 Tagsubheadline: 
+
+----
+
+Thumbnailimage: schwarz_01.jpg

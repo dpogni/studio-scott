@@ -31,3 +31,7 @@ Tags: identity,branding
 ----
 
 Tagsubheadline: 
+
+----
+
+Thumbnailimage: dbc_01.jpg
