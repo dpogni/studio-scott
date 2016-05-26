@@ -3,3 +3,15 @@ Title: Home
 ----
 
 Text: Design matters because it is a part of everything. But it doesn’t (link: # text: happen in a vaccuum). It takes conviction on the part of the client and listening on the part of the designer. It is a partnership where—at the end of a journey—there is something to celebrate.
+
+----
+
+Imagecaption: An unconventional look at the history of Stanford Law School.
+
+----
+
+Intro: Design matters. It influences how we think and feel. It shapes our decisions. It expresses identity. It is part of everything. But great design is not the work of designers alone. At Studio Scott, we do our best work in partnership with clients who bring enthusiasm and dedication to the table. Through creative collaboration—your commitment, our expertise—we produce great design. And that is something we all can celebrate.
+
+----
+
+Heroimage: text.png

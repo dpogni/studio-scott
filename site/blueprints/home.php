@@ -6,7 +6,13 @@ fields:
   title:
     label: Title
     type:  text
-  text:
+  heroImage:
+    label: Hero Image
+    type: image
+  imageCaption:
+    label: Hero Image Caption
+    type:  text
+  intro:
     label: Text
     type:  textarea
     size:  large

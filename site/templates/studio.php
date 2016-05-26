@@ -6,7 +6,7 @@
 
     <h1><?php echo $page->title()->html() ?></h1>
 
-    <?php if($image = $page->image('studio-banner.png')): ?>
+    <?php if($image = $page->image('studio-banner.jpg')): ?>
     <figure class="studio__hero">
       <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
     </figure>
@@ -23,8 +23,8 @@
 
       <h2>Founder</h2>
 
-      <?php if($image = $page->image('laura-scott.png')): ?>
-      <figure class="studio__founder--img">
+      <?php if($image = $page->image('laura-scott.jpg')): ?>
+      <figure class="studio__founder-img">
         <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
       </figure>
       <?php endif ?>

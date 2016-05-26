@@ -26,7 +26,7 @@
 
           <?php
 
-          echo '<img src=' . $project->contentURL() . '/' . $project->thumbnailImage() . '>';
+          echo '<img src=' . $project->image($project->thumbnailImage())->url() . '>';
 
           echo $project->title();
 

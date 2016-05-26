@@ -6,12 +6,16 @@
       <div class="homepage--new">
         <h2>New</h2>
         <figure>
-          <img src="http://placehold.it/1168x730">
+          <?php echo '<img src=' . $page->image($page->heroImage())->url() . '>'; ?>
+
+
+
           <figcaption>
-            An unconventional look at the history of Stanford Law School.
+            <?php echo kirbytext($page->imageCaption()) ?>
           </figcaption>
         </figure>
-        <?php echo kirbytext($page->text()) ?>
+
+        <?php echo kirbytext($page->intro()) ?>
       </div>
 
       <!-- Work Section -->

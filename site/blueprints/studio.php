@@ -11,7 +11,7 @@ fields:
     label: Banner Image
     type: info
     text: >
-      Banner image: delete the old and upload a new file called 'studio-banner.png'.
+      Banner image: To show studio banner image, name your image .jpg 'studio-banner.jpg'.
   process:
     label: Process
     type:  textarea
@@ -22,7 +22,7 @@ fields:
     label: Founder Headshot
     type: info
     text: >
-      Headshot image: delete the old and upload a new file called 'laura-scott.png'.
+      Headshot image: To show founder image, name your image .jpg 'laura-scott.job'.
   clients:
     label: Clients
     type:  textarea
