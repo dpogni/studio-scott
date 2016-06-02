@@ -1,10 +1,15 @@
 <nav role="navigation">
 
+  <a href="" class="toggle-nav">
+    <img src="assets/images/hamburger.svg">
+  </a>
+
   <ul class="menu cf">
     <?php foreach($pages->visible() as $p): ?>
     <li>
       <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 
+      <!--
       <?php if($p->hasVisibleChildren()): ?>
       <ul class="submenu">
         <?php foreach($p->children()->visible() as $p): ?>
@@ -13,7 +18,8 @@
         </li>
         <?php endforeach ?>
       </ul>
-      <?php endif ?>
+    <?php endif ?>
+    -->
 
     </li>
     <?php endforeach ?>
