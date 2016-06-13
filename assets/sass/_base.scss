@@ -75,21 +75,37 @@ body {
 .container{
   min-height: calc(100vh - 1em);
   margin: 0 auto;
-  padding: 3em;
+  padding: 6rem 3em 3em;
   background: $white;
   @media screen and (max-width: $break-mid) {
-      padding: 1.5em;
+      padding: 5em 1.5em 3em;
   }
 }
 
 /* Header
 -------------------------------------------------- */
+.header-container {
+  background-color: rgba(255, 255, 255, .8);
+  left: 0;
+  padding-right: 3em;
+  padding-left: 3em;
+  padding-top: 1.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  @media screen and (max-width: $break-mid) {
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+  }
+}
 .header {
-  margin-bottom: 1.5em;
+
   margin-right: auto;
   margin-left: auto;
   max-width: 1168px;
   position: relative;
+
 }
 .logo {
   float: right;

@@ -116,16 +116,30 @@ body {
 .container {
   min-height: calc(100vh - 1em);
   margin: 0 auto;
-  padding: 3em;
+  padding: 6rem 3em 3em;
   background: #fff; }
   @media screen and (max-width: 801px) {
     .container {
-      padding: 1.5em; } }
+      padding: 5em 1.5em 3em; } }
 
 /* Header
 -------------------------------------------------- */
+.header-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  left: 0;
+  padding-right: 3em;
+  padding-left: 3em;
+  padding-top: 1.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+  @media screen and (max-width: 801px) {
+    .header-container {
+      padding-right: 1.5em;
+      padding-left: 1.5em; } }
+
 .header {
-  margin-bottom: 1.5em;
   margin-right: auto;
   margin-left: auto;
   max-width: 1168px;
@@ -294,9 +308,12 @@ h1 a, h2 a, h3 a, h4 a {
   left: 0;
   position: absolute;
   opacity: 0;
-  top: 35px;
+  top: 54px;
   transition: opacity .3s, visibility .3s;
   visibility: hidden; }
+  @media screen and (max-width: 801px) {
+    .menu {
+      top: 48px; } }
   .menu.nav-open {
     opacity: 1;
     visibility: visible; }
@@ -321,47 +338,25 @@ h1 a, h2 a, h3 a, h4 a {
 .menu > li {
   position: relative; }
   .menu > li > a {
-    border-top: 1px solid #ddd;
     font-weight: 600;
-    padding: 0.35em 0; }
+    padding: 0.35em 1em; }
 
 .submenu {
   display: none;
   left: 1em;
   position: absolute;
   z-index: 1; }
-  .submenu:before {
-    border-top: 0.5em solid transparent;
-    border-bottom: 0.5em solid transparent;
-    border-left: 0.5em solid #222;
-    content: '';
-    position: absolute;
-    left: 0;
-    top: -.5em;
-    z-index: -1; }
-  .submenu li {
-    border-bottom: 1px solid #444; }
   .submenu a {
     background: #222;
     color: #fff;
     font-size: 0.9em;
     font-weight: 300;
-    padding: 0.5em 1.5em;
+    padding: 0.35em 1em;
     white-space: nowrap; }
     .submenu a:hover {
       background: #333;
       color: #fff; }
 
-@media screen and (min-width: 40em) {
-  .menu {
-    margin-right: -1em; }
-
-  .menu > li > a {
-    border: 0;
-    padding: 0.35em 1em; }
-
-  .menu > li:hover .submenu {
-    display: block; } }
 .home .homepage--new {
   font-size: 1.625rem; }
 .home figure {

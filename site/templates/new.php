@@ -2,7 +2,7 @@
 
   <main class="main new" role="main">
 
-    <?php snippet('connect') ?>
+    <!-- <?php snippet('connect') ?> -->
 
     <?php foreach( $page->children()->visible()->flip() as $article ): ?>
     <article>
