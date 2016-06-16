@@ -1,4 +1,4 @@
-Title: New Post 1
+Title: An unconventional approach
 
 ----
 
@@ -6,4 +6,4 @@ Text: Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi 
 
 ----
 
-Worklink: 
+Worklink: work/stanford-law-school

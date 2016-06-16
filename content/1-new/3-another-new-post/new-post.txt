@@ -1,0 +1,9 @@
+Title: Another new post
+
+----
+
+Text: something
+
+----
+
+Worklink: 

@@ -1,0 +1,29 @@
+Title: The Trust for Public Land
+
+----
+
+Subheadline: 
+
+----
+
+Thumbnailimage: tpl_04.jpg
+
+----
+
+Text: Something
+
+----
+
+Readmoretext: 
+
+----
+
+Projectcredits: 
+
+----
+
+Tags: print
+
+----
+
+Tagsubheadline: 
