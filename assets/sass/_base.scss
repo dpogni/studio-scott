@@ -61,8 +61,9 @@ a:hover {
 html {
   height: 100%;
   @include Swiss-Light;
-  -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 body {
   font-size: 1.25rem;
@@ -75,8 +76,9 @@ body {
 .container{
   min-height: calc(100vh - 1em);
   margin: 0 auto;
-  padding: 6rem 3em 3em;
+  padding: 6rem 3em 4.5em;
   background: $white;
+  position: relative;
   @media screen and (max-width: $break-mid) {
       padding: 5em 1.5em 3em;
   }
@@ -90,7 +92,7 @@ body {
   padding-right: 3em;
   padding-left: 3em;
   padding-top: 1.5em;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 999;
@@ -99,8 +101,10 @@ body {
     padding-left: 1.5em;
   }
 }
+.header-scrolled {
+  position: fixed;
+}
 .header {
-
   margin-right: auto;
   margin-left: auto;
   max-width: 1168px;
@@ -257,8 +261,9 @@ h1 a, h2 a, h3 a, h4 a {
   max-width: 1168px;
   clear: both;
   margin: 0 auto;
-  padding: 1em 0 0;
   font-size: .8em;
+  position: absolute;
+  bottom: 2.7em;
 }
 .copyright {
   float: left;

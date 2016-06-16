@@ -31,7 +31,7 @@
 
       <?php echo $page->founder()->kirbytext() ?>
 
-      <p><a href="https://www.linkedin.com/in/laura-scott-4189a74" class="studio__founder-linkedin">Connect on LinkedIn</a></p>
+      <p><a href="https://www.linkedin.com/in/laura-scott-4189a74" class="studio__founder-linkedin" target="_blank">Connect on LinkedIn</a></p>
 
     </div><!-- end studio__founder -->
 
@@ -42,19 +42,20 @@
       <?php echo $page->clients()->kirbytext() ?>
 
     </div>
+    <div class="cf">
 
-    <div class="studio__clients--left">
+      <div class="studio__clients--left">
 
-      <?php echo $page->clientsListLeft()->kirbytext() ?>
+        <?php echo $page->clientsListLeft()->kirbytext() ?>
 
+      </div>
+
+      <div class="studio__clients--right">
+
+        <?php echo $page->clientsListRight()->kirbytext() ?>
+
+      </div>
     </div>
-
-    <div class="studio__clients--right">
-
-      <?php echo $page->clientsListRight()->kirbytext() ?>
-
-    </div>
-
   </main>
 
 <?php snippet('footer') ?>

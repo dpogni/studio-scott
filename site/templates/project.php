@@ -13,34 +13,52 @@
     <div class="text">
       <?php
 
-      $images = $page->images()->sortBy('sort', 'asc');
-      $imagesFirst = $images->first();
-      $thumbnail = $images->thumbnailImage();
+        // image variables
+        // sort images "array"
+        $images = $page->images()->sortBy('sort', 'asc');
+        // get first image from sorted array
+        $imagesFirst = $images->first();
+        // get thumbnail filename
+        $thumbnail = $page->thumbnailImage();
 
-      echo $thumbnail;
+        // if first image is thumbnail, star $images array on second image
+        if ( $imagesFirst->filename() == $thumbnail ) {
+          // set offset to image 2
+          // then reset $imagesFirst to new first image
+          $images = $images->offset(1);
+          $imagesFirst = $images->first();
 
-      // if thumbnail, do not show
+        }
 
-      if ( $imagesFirst ): ?>
-      <figure>
-        <img src="<?php echo $imagesFirst->url() ?>" alt="<?php echo $page->title()->html() ?>">
-      </figure>
-      <?php endif; ?>
-
-      <?php echo $page->text()->kirbytext();
-
-      foreach( $images as $image ):
-        if ( $image == $imagesFirst ) {
-          continue;
-        } elseif ( $image->filename() == $thumbnail ) {
-          continue;
-        } else {
       ?>
+
+      <?php foreach( $images as $image ) : ?>
+
+        <?php if ( $image == $imagesFirst ) : ?>
+
+          <figure>
+
+            <img src="<?php echo $image->url() ?>" alt="">
+
+          </figure>
+
+          <?php // render the main body copy
+                echo $page->text()->kirbytext(); ?>
+
+        <?php elseif ( $image->filename() == $thumbnail ) :
+
+          continue;
+
+        else: ?>
+
       <figure>
-        <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
+
+        <img src="<?php echo $image->url() ?>" alt="">
+
       </figure>
 
-      <?php } endforeach ?>
+      <?php endif; ?>
+    <?php endforeach; ?>
 
     </div>
 

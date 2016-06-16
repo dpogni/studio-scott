@@ -9,10 +9,10 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
-  <?php echo css('assets/css/main.css') ?>
+  <?php echo css('/assets/css/main.css') ?>
 
   <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-  <script type='text/javascript' src='assets/js/scripts.js'></script>
+  <script type='text/javascript' src='/assets/js/scripts.js'></script>
 
 </head>
 
@@ -22,7 +22,7 @@
     <header class="header cf" role="banner">
       <a class="logo" href="<?php echo url() ?>">
         <!-- TODO: add SVG fallback -->
-        <img src="<?php echo url('assets/images/studio-scott.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+        <img src="<?php echo url('/assets/images/studio-scott.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
       </a>
       <?php snippet('menu') ?>
     </header>

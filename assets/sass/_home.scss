@@ -1,11 +1,11 @@
-.home{
-  .homepage--new{
+.home {
+  .homepage--new {
     font-size: 1.625rem;
   }
-  figure{
+  figure {
     position: relative;
   }
-  figcaption{
+  figcaption {
     position: absolute;
     top: 41%;
     width: 100%;
@@ -28,7 +28,7 @@
       color: $lighter-grey;
     }
   }
-  h2{
+  h2 {
     font-size: 80px;
     letter-spacing: -3px;
     @media screen and (max-width: $break-mid) {
@@ -37,15 +37,15 @@
     }
   }
   @media screen and (max-width: $break-mid) {
-    ul.teaser{
-      li{
+    ul.teaser {
+      li {
         margin-bottom: 0;
         border-bottom: 1px solid;
-        &:last-of-type{
+        &:last-of-type {
           border-bottom: 0;
         }
       }
-      a:link, a:visited{
+      a:link, a:visited {
         @include Swiss-Heavy;
         color: $lighter-grey;
         font-size: 24px;
@@ -53,12 +53,24 @@
         padding: 8px 0;
         line-height: 24px;
       }
-      a:hover{
+      a:hover {
         color: $blue;
       }
-      img{
+      img {
         display: none;
       }
+    }
+  }
+  @media screen and (min-width: $break-small) and (max-width: $break-mid) {
+  ul.teaser li:nth-of-type(5) {
+      border-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: $break-small) {
+    ul.teaser li {
+      float: none;
+      width: 100%;
     }
   }
 }

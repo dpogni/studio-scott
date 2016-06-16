@@ -1,5 +1,3 @@
-<h2>Work</h2>
-
 <ul class="teaser cf">
   <li>
     <a href="/work/tag:identity">
