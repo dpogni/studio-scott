@@ -15,8 +15,13 @@
 
       $images = $page->images()->sortBy('sort', 'asc');
       $imagesFirst = $images->first();
+      $thumbnail = $images->thumbnailImage();
 
-      if ( $images ): ?>
+      echo $thumbnail;
+
+      // if thumbnail, do not show
+
+      if ( $imagesFirst ): ?>
       <figure>
         <img src="<?php echo $imagesFirst->url() ?>" alt="<?php echo $page->title()->html() ?>">
       </figure>
@@ -26,6 +31,8 @@
 
       foreach( $images as $image ):
         if ( $image == $imagesFirst ) {
+          continue;
+        } elseif ( $image->filename() == $thumbnail ) {
           continue;
         } else {
       ?>
