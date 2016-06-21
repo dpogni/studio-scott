@@ -84,45 +84,6 @@ body {
   }
 }
 
-/* Header
--------------------------------------------------- */
-.header-container {
-  background-color: rgba(255, 255, 255, .8);
-  left: 0;
-  padding-right: 3em;
-  padding-left: 3em;
-  padding-top: 1.5em;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  @media screen and (max-width: $break-mid) {
-    padding-right: 1.5em;
-    padding-left: 1.5em;
-  }
-}
-.header-scrolled {
-  position: fixed;
-}
-.header {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1168px;
-  position: relative;
-
-}
-.logo {
-  float: right;
-  display: block;
-  margin-bottom: 1.5em;
-}
-.logo img {
-  width: 175px;
-  @media screen and (max-width: $break-mid) {
-    width: 130px;
-  }
-}
-
 /* Columns
 -------------------------------------------------- */
 .col-3{
