@@ -1,19 +1,19 @@
-.project{
-  h1{
+.project {
+  h1 {
     font-size: 34px;
     @include Swiss-Heavy;
     letter-spacing: -.6px;
     line-height: 1.1;
     margin-bottom: 0;
   }
-  h2{
+  h2 {
     font-size: 28px;
     letter-spacing: -.5px;
     @include Swiss-Light;
     line-height: 1.1;
     margin-bottom: 1.25em;
   }
-  figure img{
+  figure img {
     margin: 0 auto;
   }
 }

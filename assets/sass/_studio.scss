@@ -1,8 +1,8 @@
-.studio__process{
+.studio__process {
   font-size: $font-size--large;
 }
 
-.studio__clients{
+.studio__clients {
   font-size: $font-size--large;
 }
 
@@ -10,7 +10,7 @@
   width: 50%;
   float: left;
   padding-right: 10px;
-  p{
+  p {
     margin-bottom: 0;
   }
   @media screen and (max-width: $break-mid) {
@@ -25,7 +25,14 @@
 
 .studio__founder-img {
   float:left;
-  padding: 0 15px 15px 0;
+  padding: 0 15px 0 0;
+  max-width: 240px;
+  margin-bottom: 0!important;
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 1.5em;
+  }
 }
 
 .studio__founder-linkedin {

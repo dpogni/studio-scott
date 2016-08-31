@@ -59,13 +59,13 @@ ul.teaser {
   }
   a:link, a:visited {
     color: $grey;
-    span{
+    span {
       @include Swiss-Light;
       color: $light-grey;
       display: block;
     }
   }
-  a:hover{
+  a:hover {
     color: $blue;
   }
 }

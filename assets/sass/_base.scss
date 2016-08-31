@@ -31,7 +31,7 @@ img {
   max-width: 100%;
 }
 
-iframe{
+iframe {
   margin-bottom: 2.5rem;
 }
 
@@ -73,7 +73,7 @@ body {
   color: $grey;
   min-height: 100%;
 }
-.container{
+.container {
   min-height: calc(100vh - 1em);
   margin: 0 auto;
   padding: 7rem 3em 4.5em;
@@ -86,7 +86,7 @@ body {
 
 /* Columns
 -------------------------------------------------- */
-.col-3{
+.col-3 {
   float:left;
   width: 33%;
   padding-left: 3%;
@@ -95,7 +95,7 @@ body {
     padding-left: 0;
     width: 100%;
   }
-  &:first-of-type{
+  &:first-of-type {
     padding-left: 0;
   }
 }
@@ -115,7 +115,7 @@ body {
 }
 .main p,
 .main ul,
-.main ol{
+.main ol {
 
 }
 .main p,
@@ -132,7 +132,7 @@ body {
 
 /* Headings
 -------------------------------------------------- */
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
   color: $grey;
 }
 h1 {
@@ -167,7 +167,7 @@ h1 a, h2 a, h3 a, h4 a {
   color: inherit;
   border: 0 !important;
 }
-.page-title{
+.page-title {
   @include Swiss-Heavy;
   font-size: 80px;
   letter-spacing: -3px;

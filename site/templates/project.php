@@ -42,6 +42,13 @@
           <?php // render the main body copy
                 echo $page->text()->kirbytext(); ?>
 
+          <?php if ( $page->readMoreText()->kirbytext() ) : ?>
+            <div class="read-more-container">
+              <?php echo $page->readMoreText()->kirbytext() ?>
+            </div>
+          <?php endif; ?>
+
+
         <?php elseif ( $image->filename() == $thumbnail ) :
 
           continue;
@@ -68,10 +75,10 @@
 
     <nav class="nextprev cf" role="navigation">
       <?php if($prev = $page->prevVisible()): ?>
-      <a class="prev" href="<?php echo $prev->url() ?>">&larr; previous</a>
+      <a class="prev" href="<?php echo $prev->url() ?>">&lt; previous</a>
       <?php endif ?>
       <?php if($next = $page->nextVisible()): ?>
-      <a class="next" href="<?php echo $next->url() ?>">next &rarr;</a>
+      <a class="next" href="<?php echo $next->url() ?>">next &gt;</a>
       <?php endif ?>
     </nav>
 
