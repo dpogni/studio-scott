@@ -7,13 +7,27 @@ files:
 fields:
   title:
     label: Title
-    type:  text
-  year:
-    label: Year
-    type:  text
+    type: text
+  subheadline:
+    label: Subheadline
+    type: text
+  thumbnailImage:
+    label: Thumbnail Image
+    type: image
+    help: Note&colon; Thumbnails should be cropped to 369 x 289px. This thumbnail image will not appear on the project's image feed.
   text:
     label: Text
-    type:  wysiwyg
+    type: textarea
+  readMoreText:
+    label: Read More Text
+    type: textarea
+  projectCredits:
+    label: Project Credits
+    type: textarea
   tags:
     label: Tags
-    type:  tags
+    type: tags
+    lower: true
+  tagSubheadline:
+    label: Tag Subheadline
+    type: text

@@ -1,0 +1,33 @@
+.studio__process{
+  font-size: $font-size--large;
+}
+
+.studio__clients{
+  font-size: $font-size--large;
+}
+
+.studio__clients--left {
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+  p{
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: $break-mid) {
+    width: 100%;
+  }
+}
+
+.studio__clients--right {
+  width: 50%;
+  float: left;
+}
+
+.studio__founder-img {
+  float:left;
+  padding: 0 15px 15px 0;
+}
+
+.studio__founder-linkedin {
+
+}

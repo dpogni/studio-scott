@@ -1,0 +1,29 @@
+Title: Stanford Product Realization Lab
+
+----
+
+Subheadline: 
+
+----
+
+Thumbnailimage: stanfordprl_thumb.jpg
+
+----
+
+Text: 
+
+----
+
+Readmoretext: 
+
+----
+
+Projectcredits: 
+
+----
+
+Tags: identity,print
+
+----
+
+Tagsubheadline: 

@@ -1,0 +1,29 @@
+Title: Haas School of Business
+
+----
+
+Subheadline: 
+
+----
+
+Thumbnailimage: haas_01.jpg
+
+----
+
+Text: 
+
+----
+
+Readmoretext: 
+
+----
+
+Projectcredits: 
+
+----
+
+Tags: print
+
+----
+
+Tagsubheadline: 

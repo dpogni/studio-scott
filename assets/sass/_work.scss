@@ -1,0 +1,96 @@
+.work-nav {
+  margin-bottom: 1.5em;
+  list-style: none;
+  @include Swiss-Medium;
+  @include clearfix;
+  color: $lighter-grey;
+  @media screen and (max-width: $break-mid) {
+    font-size: 16px;
+  }
+  a:link, a:visited {
+    color: inherit;
+  }
+  a:hover {
+    color: $grey;
+  }
+  li {
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 2px;
+    &:after {
+      content: "/";
+      margin-left: .25em;
+    }
+    &:last-of-type {
+      margin-right: 0;
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+
+/* Project teaser
+-------------------------------------------------- */
+ul.teaser {
+  @include Swiss-Roman;
+  list-style: none;
+  margin-left: 0;
+  font-size: 18px;
+  font-weight: normal;
+  li {
+    margin-bottom: 1.5em;
+    list-style: none;
+    width: percentage(369.33333333333333/$base-width);
+    margin-right: percentage(30/$base-width);
+    box-sizing: border-box;
+    float: left;
+
+    &:nth-of-type(3n) {
+      margin-right: 0;
+    }
+    &:nth-of-type(3n+1) {
+      clear: left;
+    }
+    img {
+      padding-bottom: 20px;
+    }
+  }
+  a:link, a:visited {
+    color: $grey;
+    span{
+      @include Swiss-Light;
+      color: $light-grey;
+      display: block;
+    }
+  }
+  a:hover{
+    color: $blue;
+  }
+}
+@media screen and (max-width: $break-mid) {
+  ul.teaser li {
+    float: left;
+    width: percentage(569/$base-width);
+
+    &:nth-of-type(3n) {
+      margin-right: percentage(30/$base-width);
+    }
+
+    &:nth-of-type(3n+1) {
+      clear: none;
+    }
+
+    &:nth-of-type(2n) {
+      margin-right: 0;
+    }
+  }
+  @media screen and (max-width: $break-small) {
+    ul.teaser li {
+      float: none;
+      width: 100%;
+      margin-right: 0 !important;
+    }
+  }
+}

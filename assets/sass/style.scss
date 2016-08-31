@@ -1,9 +1,29 @@
-//// Colors
-$white      :       #fff;
-$blue       :       #00ADEF;
-$grey       :       #6D6E71;
-$midGrey    :       #58595B;
+//// Global styles
+$base-width      :     1168;
 
+//// Break points
+$break-small     :     40em; //640px
+$break-mid       :     801px;
+
+//// Colors
+$white           :     #fff;
+$lighter-grey    :     #bcbec0;
+$light-grey      :     #939598;
+$grey            :     #828282;
+$blue            :     #00ADEF;
+
+//// Font Sizes
+$font-size--small :    1.25rem;
+$font-size--large :    1.625rem;
 
 //// Imports of partials
-@import "base.scss";
+@import "mixins";
+@import "fonts";
+@import "base";
+@import "header";
+@import "home";
+@import "connect";
+@import "work";
+@import "project";
+@import "studio";
+@import "new";

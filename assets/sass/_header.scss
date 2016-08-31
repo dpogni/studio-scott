@@ -1,0 +1,119 @@
+/* Header
+-------------------------------------------------- */
+.header-container {
+    background-color: rgba(255, 255, 255, .95);
+    left: 0;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: 1.5em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: background-color 0.4s;
+    @media screen and (max-width: $break-mid) {
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+    }
+    &.nav-open {
+        background-color: $blue;
+    }
+}
+.header-scrolled {
+    position: fixed;
+}
+.header {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1168px;
+    position: relative;
+}
+.logo {
+    float: right;
+    display: block;
+    margin-bottom: 1.25em;
+}
+.logo svg {
+    width: 175px;
+    color: $blue;
+    fill: currentColor;
+    transition: color 0.4s;
+    @media screen and (max-width: $break-mid) {
+        width: 130px;
+    }
+}
+/* Navigation
+-------------------------------------------------- */
+.menu {
+    opacity: 0;
+    margin-top: -200px;
+    transition: opacity 0.2s, visibility 0.2s, margin-top 0.4s;
+    visibility: hidden;
+    z-index: -1;
+    @media screen and (max-width: $break-mid) {
+    }
+}
+.nav-open {
+    .menu {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 0;
+        padding: .5em 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .toggle-nav svg, .logo svg {
+        color: $white;
+    }
+}
+.toggle-nav svg {
+    color: $grey;
+    fill: currentColor;
+    transition: color 0.4s;
+}
+.menu a {
+    @include Swiss-Medium;
+    color: $white;
+    display: block;
+    opacity: .7;
+    transition: opacity 0.4s;
+}
+.menu a:hover {
+    text-decoration: none;
+    opacity: 1;
+
+}
+.menu .active {
+    color: $white;
+    opacity: 1;
+    &:hover{
+
+    }
+}
+.menu li {
+    list-style: none;
+}
+.menu > li {
+    position: relative;
+    > a {
+        padding: 0.25em 0;
+    }
+}
+.submenu {
+    display: none;
+    left: 1em;
+    position: absolute;
+    z-index: 1;
+    a {
+        background: #222;
+        color: $white;
+        font-size: 0.9em;
+        font-weight: 300;
+        padding: 0.35em 1em;
+        white-space: nowrap;
+        &:hover {
+            background: #333;
+            color: $white;
+        }
+    }
+}

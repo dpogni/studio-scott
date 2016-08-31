@@ -8,35 +8,6 @@ Email:  support@getkirby.com
 
 */
 
-
-/* Source Sans Pro
--------------------------------------------------- */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/sourcesanspro-300.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/sourcesanspro-600.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400-italic.woff) format('woff');
-}
-
-
 /* Reset
 -------------------------------------------------- */
 *, *:before, *:after {
@@ -60,6 +31,9 @@ img {
   max-width: 100%;
 }
 
+iframe{
+  margin-bottom: 2.5rem;
+}
 
 /* Links
 -------------------------------------------------- */
@@ -69,7 +43,7 @@ a {
   transition: color .3s, background .3s, border .3s;
 }
 a:hover {
-  color: $midGrey;
+  color: $grey;
 }
 
 
@@ -77,7 +51,7 @@ a:hover {
 -------------------------------------------------- */
 .cf:after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 
@@ -86,159 +60,51 @@ a:hover {
 -------------------------------------------------- */
 html {
   height: 100%;
-  font-family: "Source Sans Pro", sans-serif;
-
-  -webkit-text-size-adjust: 100%;
+  @include Swiss-Light;
   -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 body {
   font-size: 1.25rem;
-  line-height: 1.5em;
-  padding: 1.5em;
-  background: $white;
-  color: $midGrey;
+  line-height: 1.33;
+  padding: 0 0 1em 0;
+  background: $blue;
+  color: $grey;
   min-height: 100%;
-  border-bottom: 12px solid $blue;
 }
-
-
-/* Header
--------------------------------------------------- */
-.header {
-  margin-bottom: 1.5em;
-  max-width: 50em;
+.container{
+  min-height: calc(100vh - 1em);
   margin: 0 auto;
-}
-.logo {
-  float: right;
-  display: block;
-  margin-bottom: 1.5em;
-}
-.logo img {
-  width: 175px;
-}
-
-
-/* Navigation
--------------------------------------------------- */
-.menu a {
-  display: block;
-  color: #222;
-}
-.menu a:hover {
-  color: red;
-  text-decoration: none;
-}
-.menu .active {
-  color: $blue;
-}
-.menu li {
-  list-style: none;
-}
-.menu > li {
+  padding: 7rem 3em 4.5em;
+  background: $white;
   position: relative;
-  &:first-of-type > a{
+  @media screen and (max-width: $break-mid) {
+      padding: 5em 1.5em 3em;
+  }
+}
+
+/* Columns
+-------------------------------------------------- */
+.col-3{
+  float:left;
+  width: 33%;
+  padding-left: 3%;
+  @media screen and (max-width: $break-mid) {
+    float: none;
+    padding-left: 0;
+    width: 100%;
+  }
+  &:first-of-type{
     padding-left: 0;
   }
-  > a {
-    padding: .35em 0;
-    border-top: 1px solid #ddd;
-    font-weight: 600;
-  }
 }
-
-.submenu {
-  position: absolute;
-  z-index: 1;
-  display: none;
-  left: 1em;
-  &:before {
-    position: absolute;
-    z-index: -1;
-    content: '';
-    top: -.5em;
-    left: 0;
-    border-top: .5em solid transparent;
-    border-bottom: .5em solid transparent;
-    border-left: .5em solid #222;
-  }
-  li {
-    border-bottom: 1px solid #444;
-  }
-  a {
-    padding: .5em 1.5em;
-    font-size: .9em;
-    font-weight: 300;
-    color: $white;
-    background: #222;
-    white-space: nowrap;
-    &:hover {
-      background: #333;
-      color: $white;
-    }
-  }
-}
-
-@media screen and (min-width: 40em) {
-  body {
-    padding: 3em;
-  }
-  .menu {
-    margin-right: -1em;
-  }
-  .menu > li {
-    float: left;
-  }
-  .menu > li > a {
-    padding: .35em 1em;
-    border: 0;
-  }
-  .menu > li:hover .submenu {
-    display: block;
-  }
-}
-
-
-/* Headings
--------------------------------------------------- */
-h1, h2, h3, h4, h5{
-  color: $midGrey;
-}
-h1 {
-  font-size: 6.25rem;
-  line-height: 1.25em;
-  font-weight: normal;
-  margin-bottom: .5rem;
-}
-h2 {
-  font-size: 2.8125rem;
-  line-height: 1.25em;
-  font-weight: normal;
-  margin-bottom: .5rem;
-}
-h3 {
-  font-size: 1.4em;
-  line-height: 1.5em;
-  font-weight: 400;
-  margin-bottom: .5em;
-}
-h4 {
-  font-size: 1.125em;
-  font-weight: 600;
-  line-height: 1.5em;
-  margin-bottom: .5em;
-}
-h1 a, h2 a, h3 a, h4 a {
-  color: inherit;
-  border: 0 !important;
-}
-
 
 
 /* Main
 -------------------------------------------------- */
 .main {
-  max-width: 50em;
+  max-width: 1168px;
   margin: 0 auto;
   padding-bottom: 1.5em;
 }
@@ -250,7 +116,7 @@ h1 a, h2 a, h3 a, h4 a {
 .main p,
 .main ul,
 .main ol{
-  font-weight: 100;
+
 }
 .main p,
 .main figure,
@@ -258,10 +124,66 @@ h1 a, h2 a, h3 a, h4 a {
 .main ol {
   margin-bottom: 1.5em;
 }
-.main a { font-weight: bold;}
 .main a:hover {
   border-color: #222;
+  color: $blue;
 }
+
+
+/* Headings
+-------------------------------------------------- */
+h1, h2, h3, h4, h5{
+  color: $grey;
+}
+h1 {
+  @include Swiss-Heavy;
+  font-size: 80px;
+  letter-spacing: -3px;
+  line-height: 1.25em;
+  margin-bottom: .5rem;
+  @media screen and (max-width: $break-mid) {
+    font-size: 50px;
+    letter-spacing: -2px;
+  }
+}
+h2 {
+  @include Swiss-Heavy;
+  font-size: 2.8125rem;
+  line-height: 1.25em;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin-bottom: .5em;
+}
+h4 {
+  @include Swiss-Heavy;
+  font-size: 1.125em;
+  line-height: 1.5em;
+  margin-bottom: .5em;
+}
+h1 a, h2 a, h3 a, h4 a {
+  color: inherit;
+  border: 0 !important;
+}
+.page-title{
+  @include Swiss-Heavy;
+  font-size: 80px;
+  letter-spacing: -3px;
+  line-height: 1.333;
+  @media screen and (max-width: $break-mid) {
+    font-size: 50px;
+    letter-spacing: -2px;
+  }
+  a {
+    color: $grey;
+    &:hover {
+      color: $lighter-grey;
+    }
+  }
+}
+
 
 /* Text blocks */
 .text ul,
@@ -286,28 +208,6 @@ h1 a, h2 a, h3 a, h4 a {
   padding-right: .25em;
 }
 
-
-/* Project teaser
--------------------------------------------------- */
-.teaser {
-  list-style: none;
-}
-.teaser li {
-  margin-bottom: 1.5em;
-  list-style: none;
-}
-@media screen and (min-width: 50em) {
-  .teaser li {
-    float: left;
-    width: 30%;
-    margin-left: 5%;
-  }
-  .teaser li:first-child {
-    margin-left: 0;
-  }
-}
-
-
 /* Next/Prev nav
 -------------------------------------------------- */
 .nextprev {
@@ -327,10 +227,12 @@ h1 a, h2 a, h3 a, h4 a {
 /* Footer
 -------------------------------------------------- */
 .footer {
-  max-width: 50em;
+  max-width: 1168px;
+  clear: both;
   margin: 0 auto;
-  padding: 1em 0 6em;
   font-size: .8em;
+  position: absolute;
+  bottom: 2.7em;
 }
 .copyright {
   float: left;

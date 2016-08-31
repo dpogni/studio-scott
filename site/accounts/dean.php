@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - new/blog-post-4
-  - new/blog-post-3
-  - new/blog-post-2
-  - new/blog-post-1
-  - new
+  - home
+  - new/another-new-post
+  - new/new-post-2
+  - work/california-academy-of-sciences
+  - work/dev-bootcamp

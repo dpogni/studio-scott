@@ -1,15 +1,44 @@
+<?php
+  // fetch the basic set of articles
+  $projects = $page->children()->visible();
+
+  // add the tag filter
+  if($tag = param('tag')) {
+    $projects = $projects->filterBy('tags', $tag, ',');
+  }
+
+?>
+
 <?php snippet('header') ?>
 
   <main class="main" role="main">
 
+  <?php snippet('work-nav') ?>
+
     <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
       <?php echo $page->text()->kirbytext() ?>
     </div>
 
-    <hr>
+  <ul class="teaser cf">
+    <?php foreach($projects as $project): ?>
+      <li>
+        <a href="<?php echo $project->url() ?>">
 
-    <?php snippet('work') ?>
+          <?php
+
+          echo '<img src=' . $project->image($project->thumbnailImage())->url() . '>';
+
+          echo $project->title();
+
+          if ($project->tagSubheadline()): ?>
+
+            <span><?php echo $project->tagSubheadline() ?></span>
+
+          <?php endif ?>
+        </a>
+      </li>
+    <?php endforeach ?>
+  </ul>
 
   </main>
 
