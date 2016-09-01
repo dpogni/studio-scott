@@ -537,23 +537,26 @@ ul.teaser {
     width: 100%;
     margin-right: 0 !important; } }
 .project h1 {
-  font-size: 34px;
   font-family: Swiss721BT-Heavy;
   font-weight: normal;
   font-style: normal;
+  font-size: 34px;
   letter-spacing: -.6px;
   line-height: 1.1;
   margin-bottom: 0; }
 .project h2 {
-  font-size: 28px;
-  letter-spacing: -.5px;
   font-family: Swiss721BT-Light;
   font-weight: normal;
   font-style: normal;
+  font-size: 28px;
+  letter-spacing: -.5px;
   line-height: 1.1;
   margin-bottom: 1.25em; }
 .project figure img {
   margin: 0 auto; }
+.project__video {
+  height: auto;
+  width: 100%; }
 
 .studio__process {
   font-size: 1.625rem; }
@@ -580,6 +583,10 @@ ul.teaser {
   padding: 0 15px 0 0;
   max-width: 240px;
   margin-bottom: 0 !important; }
+  @media screen and (max-width: 801px) {
+    .studio__founder-img {
+      width: 50%;
+      max-width: 100%; } }
   @media screen and (max-width: 40em) {
     .studio__founder-img {
       width: 100%;

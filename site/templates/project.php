@@ -13,27 +13,24 @@
     <div class="text">
       <?php
 
-        // image variables
-        // sort images "array"
-        $images = $page->images()->sortBy('sort', 'asc');
-        // get first image from sorted array
-        $imagesFirst = $images->first();
-        // get thumbnail filename
-        $thumbnail = $page->thumbnailImage();
+        // image vars
+        //
 
-        // if first image is thumbnail, star $images array on second image
+        $images = $page->images()->sortBy('sort', 'asc'); // create and sort images "array"
+        $imagesFirst = $images->first(); // get first image from sorted array
+        $thumbnail = $page->thumbnailImage(); // get thumbnail filename
+
+        // if first image is thumbnail, start $images array on second image
         if ( $imagesFirst->filename() == $thumbnail ) {
-          // set offset to image 2
+          // set offset to second image
           // then reset $imagesFirst to new first image
           $images = $images->offset(1);
           $imagesFirst = $images->first();
 
         }
 
-      ?>
-
-      <?php foreach( $images as $image ) : ?>
-        <?php if ( $image == $imagesFirst ) : ?>
+        foreach( $images as $image ) :
+           if ( $image == $imagesFirst ) : ?>
 
           <figure>
             <img src="<?php echo $image->url() ?>" alt="">
@@ -46,10 +43,21 @@
             <div class="read-more-container">
               <?php echo $page->readMoreText()->kirbytext() ?>
             </div>
-          <?php endif; ?>
+          <?php endif;
 
+          // fetch all video formats we need
+          $videos = array(
+            $page->videos()->find('movie.mp4')
+          );
 
-        <?php elseif ( $image->filename() == $thumbnail ) :
+          if ( $page->videos()->find('movie.mp4') ) :
+          snippet('video', array(
+            'videos' => $videos,
+            'controls' => false
+          ));
+          endif;
+
+          elseif ( $image->filename() == $thumbnail ) :
 
           continue;
 
@@ -59,8 +67,9 @@
         <img src="<?php echo $image->url() ?>" alt="">
       </figure>
 
-      <?php endif; ?>
-    <?php endforeach; ?>
+      <?php endif;
+
+     endforeach; ?>
 
     </div>
 
@@ -69,9 +78,6 @@
       <?php echo $page->projectCredits()->kirbytext() ?>
     </div>
     <?php endif; ?>
-
-
-
 
     <nav class="nextprev cf" role="navigation">
       <?php if($prev = $page->prevVisible()): ?>

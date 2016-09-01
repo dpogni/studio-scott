@@ -28,6 +28,11 @@
   padding: 0 15px 0 0;
   max-width: 240px;
   margin-bottom: 0!important;
+  @media screen and (max-width: $break-mid) {
+    width: 50%;
+    max-width: 100%;
+
+  }
   @media screen and (max-width: $break-small) {
     width: 100%;
     max-width: 100%;
