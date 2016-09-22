@@ -10,7 +10,7 @@ Thumbnailimage: stanfordlive_thumb.jpg
 
 ----
 
-Text: In January 2013, Stanford Live inaugurated its new home—Bing Concert Hall—and launched a new era in performing arts at Stanford University. Through a promotional collateral program of subscription brochures, single ticket mailers, print and online ads, audience guides, and eBlasts, we've now just unveiled Stanford Live's fifth season, aptly named Season Five at Stanford Live.
+Text: In January 2013, Stanford Live inaugurated its new home—Bing Concert Hall—and launched a new era in performing arts at Stanford University. Each year we’ve expressed Stanford Live’s performing arts season through a promotional collateral program of subscription brochures, single ticket mailers, print and online ads, audience guides, and eBlasts. Most recently we’ve launched Stanford Live’s fifth season, aptly named Season Five at Stanford Live.
 
 ----
 

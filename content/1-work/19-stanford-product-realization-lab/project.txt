@@ -2,7 +2,7 @@ Title: Stanford Product Realization Lab
 
 ----
 
-Subheadline: 
+Subheadline: “Making” the future
 
 ----
 
@@ -10,15 +10,18 @@ Thumbnailimage: stanfordprl_thumb.jpg
 
 ----
 
-Text: 
+Text: The Stanford Product Realization Lab (PRL) is a multi-site, hands-on makery resource open to all Stanford University students who want to create objects of lasting value. In 2012, Studio Scott partnered with the PRL to rebrand the lab and generate greater awareness campus-wide, nationally, and internationally. Tesla Motors, ICON Aircraft, dlight.com, and Concept 2 are just a few companies whose key employees are  PRL alums.
 
 ----
 
-Readmoretext: 
+Readmoretext: The new identity was born out of the fact that realization is a process. And what happens at the Product Realization Lab is all about the journey one goes through in realizing an idea. This mark is continuous in shape and dynamic in how it bounces back and forth between foreground and background. The act of realization is being able to see something differently once its form begins to take shape.
 
 ----
 
 Projectcredits: 
+
+**Project Credits & Awards:**
+Merit Winner,  Graphis Design Annual 2014
 
 ----
 

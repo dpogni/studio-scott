@@ -10,11 +10,11 @@ Thumbnailimage: kaiser_thumb2.jpg
 
 ----
 
-Text: 
+Text: Founded in 1981, Kaiser Associates is a global consulting firm that has set the standard for "fact-based" strategy and implementation. In 2011, to mark their 30th anniversary, Studio Scott designed a new, modern brand identity to reflect these high standards.
 
 ----
 
-Readmoretext: 
+Readmoretext: The identity system was extended through the business system, print collateral, yearly holiday cards, and environmental graphics.
 
 ----
 
