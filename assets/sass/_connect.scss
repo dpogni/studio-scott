@@ -3,6 +3,14 @@
   margin-bottom: 2.5rem;
   clear: both;
   img {
-    display: inline;
+    display: inline-block;
+    @media screen and (max-width: $break-mid) {
+      width: 35px;
+      height: auto;
+    }
   }
+}
+
+.connect-nav {
+  margin-bottom: 2.5rem;
 }

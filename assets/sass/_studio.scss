@@ -1,7 +1,12 @@
 .studio__process {
   font-size: $font-size--large;
 }
-
+.studio__founder {
+  font-size: $font-size--large;
+  a {
+    font-size: $font-size--small;
+  }
+}
 .studio__clients {
   font-size: $font-size--large;
 }
@@ -35,8 +40,14 @@
   }
   @media screen and (max-width: $break-small) {
     width: 100%;
-    max-width: 100%;
+    max-width: 240px;
     padding-bottom: 1.5em;
+  }
+}
+.studio__founder-img {
+  @media screen and (max-width: $break-small) {
+    float: none;
+    padding-right: 0;
   }
 }
 

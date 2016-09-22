@@ -55,7 +55,11 @@
         <?php echo $page->clientsListRight()->kirbytext() ?>
 
       </div>
+
     </div>
+
+    <?php snippet('social-networks') ?>
+
   </main>
 
 <?php snippet('footer') ?>

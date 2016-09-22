@@ -185,6 +185,10 @@ h2 {
   font-size: 2.8125rem;
   line-height: 1.25em;
   margin-bottom: 1rem; }
+  @media screen and (max-width: 801px) {
+    h2 {
+      font-size: 2.25rem;
+      margin-bottom: .75rem; } }
 
 h3 {
   font-size: 1.4em;
@@ -198,6 +202,9 @@ h4 {
   font-size: 1.125em;
   line-height: 1.5em;
   margin-bottom: .5em; }
+  @media screen and (max-width: 801px) {
+    h4 {
+      margin-bottom: 0; } }
 
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
@@ -468,7 +475,14 @@ h1 a, h2 a, h3 a, h4 a {
   margin-bottom: 2.5rem;
   clear: both; }
   .social-networks img {
-    display: inline; }
+    display: inline-block; }
+    @media screen and (max-width: 801px) {
+      .social-networks img {
+        width: 35px;
+        height: auto; } }
+
+.connect-nav {
+  margin-bottom: 2.5rem; }
 
 .work-nav {
   margin-bottom: 1.5em;
@@ -577,6 +591,11 @@ ul.teaser {
 .studio__process {
   font-size: 1.625rem; }
 
+.studio__founder {
+  font-size: 1.625rem; }
+  .studio__founder a {
+    font-size: 1.25rem; }
+
 .studio__clients {
   font-size: 1.625rem; }
 
@@ -606,8 +625,13 @@ ul.teaser {
   @media screen and (max-width: 40em) {
     .studio__founder-img {
       width: 100%;
-      max-width: 100%;
+      max-width: 240px;
       padding-bottom: 1.5em; } }
+
+@media screen and (max-width: 40em) {
+  .studio__founder-img {
+    float: none;
+    padding-right: 0; } }
 
 .new article {
   clear: both; }
