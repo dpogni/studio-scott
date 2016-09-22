@@ -1,3 +1,5 @@
+<div class="nav-close-shield"></div>
+
 <nav role="navigation">
 
   <a href="" class="toggle-nav">

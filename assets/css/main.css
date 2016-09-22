@@ -326,6 +326,9 @@ h1 a, h2 a, h3 a, h4 a {
   visibility: hidden;
   z-index: -1; }
 
+.nav-close-shield {
+  display: none; }
+
 .nav-open .menu {
   opacity: 1;
   visibility: visible;
@@ -335,6 +338,16 @@ h1 a, h2 a, h3 a, h4 a {
   z-index: 1; }
 .nav-open .toggle-nav svg, .nav-open .logo svg {
   color: #fff; }
+.nav-open .nav-close-shield {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  opacity: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 0; }
 
 .toggle-nav svg {
   color: #828282;
@@ -557,6 +570,9 @@ ul.teaser {
 .project__video {
   height: auto;
   width: 100%; }
+
+.moreLink {
+  margin-bottom: 1.5rem; }
 
 .studio__process {
   font-size: 1.625rem; }

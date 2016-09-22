@@ -19,6 +19,10 @@ $( document ).ready(function() {
     e.preventDefault();
   });
 
+  $( ".nav-close-shield" ).click(function() {
+    $('.header-container').removeClass("nav-open");
+  });
+
   // add/remove header-scrolled class to header on scroll
   var header = $(".header-container");
   var headerScrolledClass = "header-scrolled";
@@ -34,7 +38,7 @@ $( document ).ready(function() {
   // read more for project pages
   $('.read-more-container').readmore({
     collapsedHeight: 0,
-    moreLink: '<a href="#">Read more</a>',
+    moreLink: '<a href="#" class="moreLink">Read more</a>',
     lessLink: false
   });
 

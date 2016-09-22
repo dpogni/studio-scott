@@ -53,6 +53,7 @@
     @media screen and (max-width: $break-mid) {
     }
 }
+.nav-close-shield {display: none;}
 .nav-open {
     .menu {
         opacity: 1;
@@ -65,12 +66,25 @@
     .toggle-nav svg, .logo svg {
         color: $white;
     }
+    .nav-close-shield {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        opacity: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 0;
+    }
 }
 .toggle-nav svg {
     color: $grey;
     fill: currentColor;
     transition: color 0.4s;
 }
+
+
 .menu a {
     @include Swiss-Medium;
     color: $white;
