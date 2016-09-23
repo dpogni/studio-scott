@@ -34,13 +34,13 @@
   max-width: 240px;
   margin-bottom: 0!important;
   @media screen and (max-width: $break-mid) {
-    width: 50%;
-    max-width: 100%;
+    width: 100%;
+    max-width: 180px;
 
   }
   @media screen and (max-width: $break-small) {
     width: 100%;
-    max-width: 240px;
+    max-width: 180px;
     padding-bottom: 1.5em;
   }
 }
@@ -52,5 +52,6 @@
 }
 
 .studio__founder-linkedin {
-
+  display: block;
+  margin-top: -0.75rem;
 }
