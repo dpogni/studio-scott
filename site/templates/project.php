@@ -53,7 +53,7 @@
           if ( $page->videos()->find('movie.mp4') ) :
           snippet('video', array(
             'videos' => $videos,
-            'controls' => false
+            'controls' => true
           ));
           endif;
 

@@ -1,0 +1,95 @@
+a, a:visited 
+{ 
+	color: #B3B3B3; 
+	text-decoration: none;
+}
+
+a:hover 
+{ 
+	color: #808080; 
+}
+
+body 
+{ 
+	background: #e0dfdf;
+	color: #B3B3B3; 
+	font-size: 12px; 
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:normal; 
+	margin: 0 auto; 
+}
+
+#container 
+	{	
+	width: 975px; 
+	height: 725px;
+	background: #fff;
+	padding:25px 25px 25px 25px; 
+}
+
+#header 
+{
+	width: 960px; 
+	height: 30px; 
+	font-size: 11px;  
+	line-height:1.2; 
+	color: #808080; 
+}
+
+.logo 
+{
+	width: 185px; 
+	float: left; 
+	padding: 0px;
+}
+
+.pagination 
+{
+	padding-top:7px;
+}
+
+.rollovertext 
+{
+	font-size: 12px; 
+	font-family: Helvetica, Arial,sans-serif;
+	font-weight:normal; 
+	width: 160px;
+	height:30px; 
+	float: left; 
+	padding: 0px; 
+	padding-top:20px;
+	vertical-align:top; 
+	line-height:1.2;
+}
+
+.navigation 
+{
+	font-size: 12px; 
+	width: 180px; 
+	float: left; 
+	padding-right:15px; 
+	line-height:1.35; 
+	color: #B3B3B3;
+}
+
+.images 
+{
+	width: 725px; 
+	float: left; 
+	padding-top: 18px;
+}
+
+.indextext 
+{
+	width:470px; 
+	float: left; 
+	padding-top: 26px;
+	font-size: 16px;
+	line-height: 1.2em;
+}
+.social-links{
+	margin-bottom: 15px;
+}
+.social-links img{
+	margin-right: 5px;
+}
