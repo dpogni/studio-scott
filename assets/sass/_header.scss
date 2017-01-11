@@ -38,6 +38,7 @@
     color: $blue;
     fill: currentColor;
     transition: color 0.4s;
+    overflow: visible;
     @media screen and (max-width: $break-mid) {
         width: 130px;
     }
@@ -82,6 +83,7 @@
     color: $grey;
     fill: currentColor;
     transition: color 0.4s;
+    overflow: visible;
 }
 
 

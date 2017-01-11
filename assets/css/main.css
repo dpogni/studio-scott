@@ -319,7 +319,8 @@ h1 a, h2 a, h3 a, h4 a {
   width: 175px;
   color: #00ADEF;
   fill: currentColor;
-  transition: color 0.4s; }
+  transition: color 0.4s;
+  overflow: visible; }
   @media screen and (max-width: 801px) {
     .logo svg {
       width: 130px; } }
@@ -359,7 +360,8 @@ h1 a, h2 a, h3 a, h4 a {
 .toggle-nav svg {
   color: #828282;
   fill: currentColor;
-  transition: color 0.4s; }
+  transition: color 0.4s;
+  overflow: visible; }
 
 .menu a {
   font-family: Swiss721BT-Medium;

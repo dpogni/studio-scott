@@ -23,7 +23,7 @@
       <a class="logo" href="<?php echo url() ?>">
         <!-- TODO: add SVG fallback -->
         <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        	 width="175px" height="24.454px" viewBox="0 0 175 24.454" enable-background="new 0 0 175 24.454" xml:space="preserve">
+        	 width="175px" height="25px" viewBox="0 0 175 24.454" enable-background="new 0 0 175 24.454" xml:space="preserve">
         <g>
         	<path d="M5.702,16.107c0.068,2.646,1.548,3.998,4.384,3.998c2.479,0,3.804-0.87,3.804-2.293
         		c0-0.771-0.355-1.348-0.903-1.637c-1.388-0.713-4.029-1.163-7.414-2.514c-3.351-1.322-5.088-3.548-5.088-6.413
