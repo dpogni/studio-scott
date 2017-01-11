@@ -9,8 +9,8 @@ password: >
 language: en
 role: admin
 history:
-  - work/stanford-product-realization-lab
-  - work/haas-school-of-business
-  - work/true-story-foods
-  - work/stanford-law-school
-  - work/kaiser-associates
+  - work/finca-sophia
+  - work/katherine-delmar-burke-school
+  - work
+  - work/san-francisco-aids-foundation
+  - work/rpx-holiday-card-2015

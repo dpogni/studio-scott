@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - connect
   - work/rpx-holiday-card-2015
   - home
   - new/another-new-post
   - new/new-post-2
-  - work/california-academy-of-sciences

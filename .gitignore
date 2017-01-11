@@ -1,4 +1,7 @@
 design files
+*.swp
 *.scssc
-content/1-work/22-rpx-holiday-card-2015/rpx-holiday-animation-1080_1.mov
-content/1-work/22-rpx-holiday-card-2015/rpx-holiday-animation-1080_1.mov.txt
+*.mov
+*.mp4
+thumbs/
+.DS_Store
