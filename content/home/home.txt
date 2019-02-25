@@ -2,11 +2,11 @@ Title: Home
 
 ----
 
-Heroimage: sls_exhibit_02.jpg
+Heroimage: equator_15.jpg
 
 ----
 
-Imagecaption: An unconventional look at the history of Stanford Law School.
+Imagecaption: 
 
 ----
 
@@ -14,7 +14,7 @@ Intro: Design matters. It influences how we think and feel. It shapes our decisi
 
 ----
 
-Heroimagelink: work/stanford-law-school
+Heroimagelink: work/equator-coffees-teas-2
 
 ----
 
@@ -22,11 +22,11 @@ Identityimage: work_identity.jpg
 
 ----
 
-Packagingimage: work_packaging.jpg
+Packagingimage: kitehill_06.jpg
 
 ----
 
-Brandingimage: work_branding.jpg
+Brandingimage: menlo_01.jpg
 
 ----
 
@@ -34,12 +34,12 @@ Printimage: work_print.jpg
 
 ----
 
-Digitalimage: work_digital.jpg
+Digitalimage: work_digital2.jpg
 
 ----
 
-Environmentalgraphicsimage: work_environmentalgraphics.jpg
+Environmentalgraphicsimage: tcc_thumb.jpg
 
 ----
 
-Studioimage: studio-banner.jpg
+Studioimage: studio-banner02.jpg

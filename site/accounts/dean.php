@@ -8,7 +8,7 @@ language: en
 role: admin
 history:
   - connect
+  - studio
   - work/rpx-holiday-card-2015
   - home
   - new/another-new-post
-  - new/new-post-2
