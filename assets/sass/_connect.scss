@@ -13,4 +13,14 @@
 
 .connect-nav {
   margin-bottom: 2.5rem;
+
+  @media screen and (min-width: $break-mid +1) {
+    display: flex;
+  }
+
+  .address-2 {
+    @media screen and (min-width: $break-mid +1) {
+      margin-top: 44px;
+    }
+  }
 }

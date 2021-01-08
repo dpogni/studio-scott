@@ -18,3 +18,9 @@ fields:
   copyright:
     label: Copyright
     type:  textarea
+  address_1:
+    label: Address 1
+    type:  textarea
+  address_2: 
+    label: Address 2
+    type:  textarea
